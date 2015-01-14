@@ -1,0 +1,2 @@
+# openthings-onto
+OpenThings ontology
