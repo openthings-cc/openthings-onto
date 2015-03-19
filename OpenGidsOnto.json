@@ -1,73 +1,113 @@
 {
   "@graph": [
-    {
-      "@id": "http://opengids.cc/ontology/Understand",
-      "@type": "owl:Class",
-      "label": [
 
-      ],
-      "subClassOf": "http://openthings.cc/ontology/Thing",
-      "equivalentClass": ["http://openthings.cc/ontology/Accomodation"]
-    },
-    {
-      "@id": "http://opengids.cc/ontology/Get in",
-      "@type": "owl:Class",
-      "subClassOf": "http://openthings.cc/ontology/Thing"
-    },
-    {
-      "@id": "http://opengids.cc/ontology/Get around",
-      "@type": "owl:Class",
-      "subClassOf": "http://openthings.cc/ontology/Thing"
-    },
     {
       "@id": "http://opengids.cc/ontology/See",
       "@type": "owl:Class",
-      "subClassOf": "http://openthings.cc/ontology/Thing"
+      "subClassOf": "http://opengids.cc/ontology/TouristThing"
     },
     {
       "@id": "http://opengids.cc/ontology/Do",
       "@type": "owl:Class",
-      "subClassOf": "http://openthings.cc/ontology/Thing"
+      "subClassOf": "http://opengids.cc/ontology/TouristThing"
     },
     {
       "@id": "http://opengids.cc/ontology/Buy",
       "@type": "owl:Class",
-      "subClassOf": "http://openthings.cc/ontology/Thing"
+      "subClassOf": "http://opengids.cc/ontology/TouristThing"
     },
     {
       "@id": "http://opengids.cc/ontology/Eat",
       "@type": "owl:Class",
-      "subClassOf": "http://openthings.cc/ontology/Thing"
+      "subClassOf": "http://opengids.cc/ontology/TouristThing"
     },
     {
       "@id": "http://opengids.cc/ontology/Drink",
       "@type": "owl:Class",
-      "subClassOf": "http://openthings.cc/ontology/Thing"
+      "subClassOf": "http://opengids.cc/ontology/TouristThing"
     },
     {
       "@id": "http://opengids.cc/ontology/Sleep",
       "@type": "owl:Class",
-      "subClassOf": "http://openthings.cc/ontology/Thing"
+      "subClassOf": "http://opengids.cc/ontology/TouristThing"
+    },
+
+
+
+    {
+      "@id": "http://opengids.cc/ontology/see",
+      "@type": "owl:ObjectProperty",
+      "domain": "http://openthings.cc/ontology/Place",
+      "range": "http://opengids.cc/ontology/See"
     },
     {
-      "@id": "http://opengids.cc/ontology/Connect",
-      "@type": "owl:Class",
-      "subClassOf": "http://openthings.cc/ontology/Thing"
+      "@id": "http://opengids.cc/ontology/do",
+      "@type": "owl:ObjectProperty",
+      "domain": "http://openthings.cc/ontology/Place",
+      "range": "http://opengids.cc/ontology/Do"
     },
     {
-      "@id": "http://opengids.cc/ontology/Go next",
-      "@type": "owl:Class",
-      "subClassOf": "http://openthings.cc/ontology/Thing"
+      "@id": "http://opengids.cc/ontology/buy",
+      "@type": "owl:ObjectProperty",
+      "domain": "http://openthings.cc/ontology/Place",
+      "range": "http://opengids.cc/ontology/Buy"
     },
     {
-      "@id": "http://opengids.cc/ontology/Stay safe",
-      "@type": "owl:Class",
-      "subClassOf": "http://openthings.cc/ontology/Thing"
+      "@id": "http://opengids.cc/ontology/eat",
+      "@type": "owl:ObjectProperty",
+      "domain": "http://openthings.cc/ontology/Place",
+      "range": "http://opengids.cc/ontology/Eat"
     },
     {
-      "@id": "http://opengids.cc/ontology/Cope",
-      "@type": "owl:Class",
-      "subClassOf": "http://openthings.cc/ontology/Thing"
+      "@id": "http://opengids.cc/ontology/drink",
+      "domain": "http://openthings.cc/ontology/Place",
+      "range": "http://opengids.cc/ontology/Drink"
+    },
+    {
+      "@id": "http://opengids.cc/ontology/sleep",
+      "@type": "owl:ObjectProperty",
+      "domain": "http://openthings.cc/ontology/Place",
+      "range": "http://opengids.cc/ontology/Sleep"
+    },
+
+
+    {
+      "@id": "http://opengids.cc/ontology/understand",
+      "@type": "owl:ObjectProperty",
+      "domain": "http://openthings.cc/ontology/Place"
+    },
+    {
+      "@id": "http://opengids.cc/ontology/getIn",
+      "@type": "owl:ObjectProperty",
+      "domain": "http://openthings.cc/ontology/Place"
+    },
+    {
+      "@id": "http://opengids.cc/ontology/getAround",
+      "@type": "owl:ObjectProperty",
+      "domain": "http://openthings.cc/ontology/Place"
+    },
+    {
+      "@id": "http://opengids.cc/ontology/connect",
+      "@type": "owl:ObjectProperty",
+      "domain": "http://openthings.cc/ontology/Place",
+      "range": "http://opengids.cc/ontology/Thing"
+    },
+    {
+      "@id": "http://opengids.cc/ontology/staySafe",
+      "@type": "owl:ObjectProperty",
+      "domain": "http://openthings.cc/ontology/Place"
+    },
+    {
+      "@id": "http://opengids.cc/ontology/cope",
+      "@type": "owl:ObjectProperty",
+      "domain": "http://openthings.cc/ontology/Place"
+    },
+
+    {
+      "@id": "http://opengids.cc/ontology/goNext",
+      "@type": "owl:ObjectProperty",
+      "domain": "http://opengids.cc/ontology/TouristThing",
+      "range": "http://opengids.cc/ontology/TouristThing"
     },
 
     {
@@ -3148,7 +3188,7 @@
       ],
       "subClassOf": "http://openthings.cc/ontology/TourismThing",
       "equivalentClass": ["http://linkedgeodata.org/ontology/Zoo"]
-    },
+    }
     
   ],
   "@context": {
