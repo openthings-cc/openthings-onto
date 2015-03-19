@@ -1,0 +1,3287 @@
+{
+  "@graph": [
+    {
+      "@id": "http://opengids.cc/ontology/Understand",
+      "@type": "owl:Class",
+      "label": [
+
+      ],
+      "subClassOf": "http://openthings.cc/ontology/Thing",
+      "equivalentClass": ["http://openthings.cc/ontology/Accomodation"]
+    },
+    {
+      "@id": "http://opengids.cc/ontology/Get in",
+      "@type": "owl:Class",
+      "subClassOf": "http://openthings.cc/ontology/Thing"
+    },
+    {
+      "@id": "http://opengids.cc/ontology/Get around",
+      "@type": "owl:Class",
+      "subClassOf": "http://openthings.cc/ontology/Thing"
+    },
+    {
+      "@id": "http://opengids.cc/ontology/See",
+      "@type": "owl:Class",
+      "subClassOf": "http://openthings.cc/ontology/Thing"
+    },
+    {
+      "@id": "http://opengids.cc/ontology/Do",
+      "@type": "owl:Class",
+      "subClassOf": "http://openthings.cc/ontology/Thing"
+    },
+    {
+      "@id": "http://opengids.cc/ontology/Buy",
+      "@type": "owl:Class",
+      "subClassOf": "http://openthings.cc/ontology/Thing"
+    },
+    {
+      "@id": "http://opengids.cc/ontology/Eat",
+      "@type": "owl:Class",
+      "subClassOf": "http://openthings.cc/ontology/Thing"
+    },
+    {
+      "@id": "http://opengids.cc/ontology/Drink",
+      "@type": "owl:Class",
+      "subClassOf": "http://openthings.cc/ontology/Thing"
+    },
+    {
+      "@id": "http://opengids.cc/ontology/Sleep",
+      "@type": "owl:Class",
+      "subClassOf": "http://openthings.cc/ontology/Thing"
+    },
+    {
+      "@id": "http://opengids.cc/ontology/Connect",
+      "@type": "owl:Class",
+      "subClassOf": "http://openthings.cc/ontology/Thing"
+    },
+    {
+      "@id": "http://opengids.cc/ontology/Go next",
+      "@type": "owl:Class",
+      "subClassOf": "http://openthings.cc/ontology/Thing"
+    },
+    {
+      "@id": "http://opengids.cc/ontology/Stay safe",
+      "@type": "owl:Class",
+      "subClassOf": "http://openthings.cc/ontology/Thing"
+    },
+    {
+      "@id": "http://opengids.cc/ontology/Cope",
+      "@type": "owl:Class",
+      "subClassOf": "http://openthings.cc/ontology/Thing"
+    },
+
+    {
+      "@id": "http://opengids.cc/ontology/AlpineHut",
+      "@type": "owl:Class",
+      "label": [
+        {
+          "@language": "fr",
+          "@value": "Refuge"
+        },
+        {
+          "@language": "mk",
+          "@value": "Планинска куќарка"
+        },
+        {
+          "@language": "en-gb",
+          "@value": "Alpine Hut"
+        },
+        {
+          "@language": "nds",
+          "@value": "Barghütt"
+        },
+        {
+          "@language": "uk",
+          "@value": "Гірський притулок"
+        },
+        {
+          "@language": "ln",
+          "@value": "Ndáko mɔkɛ́ na ngómba"
+        },
+        {
+          "@language": "hsb",
+          "@value": "Hórska bawda"
+        },
+        {
+          "@language": "sr-el",
+          "@value": "Planinarski dom"
+        },
+        {
+          "@language": "de",
+          "@value": "Berghütte"
+        },
+        {
+          "@language": "tl",
+          "@value": "Kubong Pambundok"
+        },
+        {
+          "@language": "hu",
+          "@value": "Alpesi kunyhó"
+        },
+        {
+          "@language": "aln",
+          "@value": "Vikendice"
+        },
+        {
+          "@language": "eu",
+          "@value": "Aterpe alpinoa"
+        },
+        {
+          "@language": "vi",
+          "@value": "Túp lều Trên Núi"
+        },
+        {
+          "@language": "sv",
+          "@value": "Fjällbod"
+        },
+        {
+          "@language": "dsb",
+          "@value": "Górski chromcyk"
+        },
+        {
+          "@language": "ia",
+          "@value": "Cabana alpin"
+        },
+        {
+          "@language": "lv",
+          "@value": "Kalnu būda"
+        },
+        {
+          "@language": "sr-ec",
+          "@value": "Планинарски дом"
+        },
+        {
+          "@language": "br",
+          "@value": "Bod menez"
+        },
+        {
+          "@language": "da",
+          "@value": "Bjerghytte"
+        },
+        {
+          "@language": "pl",
+          "@value": "Chata alpejska"
+        },
+        {
+          "@language": "ru",
+          "@value": "Высокогорная гостиница"
+        },
+        {
+          "@language": "es",
+          "@value": "Cabaña alpina"
+        },
+        {
+          "@language": "it",
+          "@value": "Rifugio alpino"
+        },
+        {
+          "@language": "hr",
+          "@value": "Alpska kuća"
+        },
+        {
+          "@language": "be-tarask",
+          "@value": "Горная гасьцініца"
+        },
+        {
+          "@language": "he",
+          "@value": "בקתה אלפינית"
+        },
+        {
+          "@language": "arz",
+          "@value": "كوخ جبلي"
+        },
+        {
+          "@language": "ar",
+          "@value": "كوخ جبلي"
+        },
+        {
+          "@language": "gl",
+          "@value": "Cabana alpina"
+        },
+        {
+          "@language": "pt-br",
+          "@value": "Cabana alpina"
+        },
+        {
+          "@language": "ast",
+          "@value": "Refuxu de montaña"
+        },
+        {
+          "@language": "af",
+          "@value": "Berghut"
+        },
+        {
+          "@language": "nl",
+          "@value": "Berghut"
+        },
+        {
+          "@language": "sk",
+          "@value": "Vysokohorská chata"
+        },
+        {
+          "@language": "no",
+          "@value": "Fjellhytte"
+        },
+        {
+          "@language": "cs",
+          "@value": "Vysokohorská chata"
+        },
+        {
+          "@language": "fi",
+          "@value": "Alppimaja"
+        },
+        {
+          "@language": "sl",
+          "@value": "Koča"
+        },
+        {
+          "@language": "et",
+          "@value": "Alpimaja"
+        },
+        {
+          "@language": "tr",
+          "@value": "Dağ evi"
+        },
+        {
+          "@language": "ca",
+          "@value": "Cabanya alpina"
+        },
+        {
+          "@language": "zh-hans",
+          "@value": "高山小屋"
+        }
+      ],
+      "subClassOf": "http://openthings.cc/ontology/TourismThing",
+      "equivalentClass": ["http://linkedgeodata.org/ontology/AlpineHut"]
+    },
+    {
+      "@id": "http://opengids.cc/ontology/Attraction",
+      "@type": "owl:Class",
+      "label": [
+        {
+          "@language": "hu",
+          "@value": "Látnivaló"
+        },
+        {
+          "@language": "ja",
+          "@value": "アトラクション"
+        },
+        {
+          "@language": "pt-br",
+          "@value": "Atração"
+        },
+        {
+          "@language": "af",
+          "@value": "Attraksie"
+        },
+        {
+          "@language": "pl",
+          "@value": "Atrakcja turystyczna"
+        },
+        {
+          "@language": "es",
+          "@value": "Atracción"
+        },
+        {
+          "@language": "gl",
+          "@value": "Atracción"
+        },
+        {
+          "@language": "eu",
+          "@value": "Atrakzio"
+        },
+        {
+          "@language": "zh-hans",
+          "@value": "景点"
+        },
+        {
+          "@language": "ast",
+          "@value": "Interés turísticu"
+        },
+        {
+          "@language": "ca",
+          "@value": "Atracció"
+        },
+        {
+          "@language": "tl",
+          "@value": "Pang-akit"
+        },
+        {
+          "@language": "lt",
+          "@value": "Lankytina vieta"
+        },
+        {
+          "@language": "tr",
+          "@value": "Gezelim görelim yeri"
+        },
+        {
+          "@language": "nl",
+          "@value": "Attractie"
+        },
+        {
+          "@language": "fi",
+          "@value": "Nähtävyys"
+        },
+        {
+          "@language": "be-tarask",
+          "@value": "Славутасьць"
+        },
+        {
+          "@language": "da",
+          "@value": "Seværdighed"
+        },
+        {
+          "@language": "sl",
+          "@value": "Zanimivost"
+        },
+        {
+          "@language": "cs",
+          "@value": "Turistická atrakce"
+        },
+        {
+          "@language": "uk",
+          "@value": "Цікаві місця"
+        },
+        {
+          "@language": "pt",
+          "@value": "Atracção"
+        },
+        {
+          "@language": "fa",
+          "@value": "جاذبه"
+        },
+        {
+          "@language": "de",
+          "@value": "Attraktion"
+        },
+        {
+          "@language": "sv",
+          "@value": "Attraktion"
+        },
+        {
+          "@language": "lb",
+          "@value": "Attraktioun"
+        },
+        {
+          "@language": "no",
+          "@value": "Attraksjon"
+        },
+        {
+          "@language": "et",
+          "@value": "Turismiatraktsioon"
+        },
+        {
+          "@language": "ka",
+          "@value": "ატრაქციონი"
+        },
+        {
+          "@language": "mk",
+          "@value": "Атракција"
+        },
+        {
+          "@language": "sr-ec",
+          "@value": "Атракција"
+        },
+        {
+          "@language": "arz",
+          "@value": "معلم سياحي"
+        },
+        {
+          "@language": "ar",
+          "@value": "معلم سياحي"
+        },
+        {
+          "@language": "br",
+          "@value": "Tra zedennus"
+        },
+        {
+          "@language": "ru",
+          "@value": "Аттракцион"
+        },
+        {
+          "@language": "en-gb",
+          "@value": "Attraction"
+        },
+        {
+          "@language": "fr",
+          "@value": "Attraction"
+        },
+        {
+          "@language": "ia",
+          "@value": "Attraction"
+        },
+        {
+          "@language": "vi",
+          "@value": "Nơi Du lịch"
+        },
+        {
+          "@language": "lv",
+          "@value": "Atrakcija"
+        },
+        {
+          "@language": "sr-el",
+          "@value": "Atrakcija"
+        },
+        {
+          "@language": "hsb",
+          "@value": "Atrakcija"
+        },
+        {
+          "@language": "dsb",
+          "@value": "Atrakcija"
+        },
+        {
+          "@language": "hr",
+          "@value": "Atrakcija"
+        },
+        {
+          "@language": "sk",
+          "@value": "Atrakcia"
+        },
+        {
+          "@language": "aln",
+          "@value": "Qef"
+        },
+        {
+          "@language": "he",
+          "@value": "אתר בעל עניין"
+        },
+        {
+          "@language": "it",
+          "@value": "Attrazione turistica"
+        }
+      ],
+      "subClassOf": "http://openthings.cc/ontology/TourismThing",
+      "equivalentClass": ["http://linkedgeodata.org/ontology/Attraction"]
+    },
+    {
+      "@id": "http://opengids.cc/ontology/BedAndBreakfast",
+      "@type": "owl:Class",
+      "label": [
+        {
+          "@language": "hsb",
+          "@value": "Přenocowanje ze snědanju"
+        },
+        {
+          "@language": "zh-hans",
+          "@value": "床和早餐"
+        },
+        {
+          "@language": "sr-el",
+          "@value": "Polupansion"
+        },
+        {
+          "@language": "rue",
+          "@value": "Ложко і фрыштик"
+        },
+        {
+          "@language": "aln",
+          "@value": "Bujtin dhe Mengjes"
+        },
+        {
+          "@language": "sq",
+          "@value": "Bujtin dhe Mengjes"
+        },
+        {
+          "@language": "nl",
+          "@value": "Pension"
+        },
+        {
+          "@language": "eu",
+          "@value": "Ohe eta gosari (B&B)"
+        },
+        {
+          "@language": "no",
+          "@value": "Bed and Breakfast"
+        },
+        {
+          "@language": "da",
+          "@value": "Bed and Breakfast"
+        },
+        {
+          "@language": "de",
+          "@value": "Bed and Breakfast"
+        },
+        {
+          "@language": "en-gb",
+          "@value": "Bed and Breakfast"
+        },
+        {
+          "@language": "ia",
+          "@value": "Bed and Breakfast"
+        },
+        {
+          "@language": "it",
+          "@value": "Bed and Breakfast"
+        },
+        {
+          "@language": "pl",
+          "@value": "Bed and Breakfast"
+        },
+        {
+          "@language": "pt-br",
+          "@value": "Cama e café da manhã"
+        },
+        {
+          "@language": "ca",
+          "@value": "Llist i esmorzar (B&B)"
+        },
+        {
+          "@language": "tr",
+          "@value": "Oda Kahvaltı"
+        },
+        {
+          "@language": "af",
+          "@value": "Bed en Ontbyt"
+        },
+        {
+          "@language": "mk",
+          "@value": "Полупансион"
+        },
+        {
+          "@language": "ru",
+          "@value": "Полупансион"
+        },
+        {
+          "@language": "sr-ec",
+          "@value": "Полупансион"
+        },
+        {
+          "@language": "sv",
+          "@value": "Bad and breakfast"
+        },
+        {
+          "@language": "he",
+          "@value": "לינה וארוחת בוקר"
+        },
+        {
+          "@language": "sl",
+          "@value": "Nočitev z zajtrkom"
+        },
+        {
+          "@language": "uk",
+          "@value": "Ліжко та сніданок"
+        },
+        {
+          "@language": "dsb",
+          "@value": "Pśenocowanje ze snědanim"
+        },
+        {
+          "@language": "fa",
+          "@value": "تخت‌خواب و صبحانه"
+        },
+        {
+          "@language": "be-tarask",
+          "@value": "Танная гасьцініца"
+        },
+        {
+          "@language": "sk",
+          "@value": "Nocľah a raňajky"
+        },
+        {
+          "@language": "hu",
+          "@value": "Vendégház"
+        },
+        {
+          "@language": "fr",
+          "@value": "Gîte"
+        },
+        {
+          "@language": "lv",
+          "@value": "Guļamvieta un brokastis"
+        },
+        {
+          "@language": "gl",
+          "@value": "Cama e almorzo"
+        },
+        {
+          "@language": "cs",
+          "@value": "Ubytování Bed & Breakfast"
+        },
+        {
+          "@language": "tl",
+          "@value": "Kama at Almusal"
+        },
+        {
+          "@language": "arz",
+          "@value": "سرير وفطار"
+        },
+        {
+          "@language": "ar",
+          "@value": "سرير وفطار"
+        },
+        {
+          "@language": "fi",
+          "@value": "Aamiaismajoitus"
+        },
+        {
+          "@language": "vi",
+          "@value": "Nhà trọ"
+        },
+        {
+          "@language": "br",
+          "@value": "Bod ha boued"
+        },
+        {
+          "@language": "es",
+          "@value": "Cama y desayuno (B&B)"
+        },
+        {
+          "@language": "ast",
+          "@value": "Cama y almuerzu (B&B)"
+        },
+        {
+          "@language": "hr",
+          "@value": "Noćenje i doručak"
+        }
+      ],
+      "subClassOf": "http://openthings.cc/ontology/TourismThing",
+      "equivalentClass": ["http://linkedgeodata.org/ontology/BedAndBreakfast"]
+    },
+    {
+      "@id": "http://opengids.cc/ontology/CampSite",
+      "@type": "owl:Class",
+      "label": [
+        {
+          "@language": "fi",
+          "@value": "Leirintäalue"
+        },
+        {
+          "@language": "et",
+          "@value": "Laagriplats"
+        },
+        {
+          "@language": "lt",
+          "@value": "Stovyklavietė"
+        },
+        {
+          "@language": "af",
+          "@value": "Kampterrein"
+        },
+        {
+          "@language": "es",
+          "@value": "Campamento"
+        },
+        {
+          "@language": "gl",
+          "@value": "Campamento"
+        },
+        {
+          "@language": "he",
+          "@value": "אתר מחנאות"
+        },
+        {
+          "@language": "no",
+          "@value": "Teltplass"
+        },
+        {
+          "@language": "ia",
+          "@value": "Terreno de camping"
+        },
+        {
+          "@language": "fa",
+          "@value": "محل اردوگاه"
+        },
+        {
+          "@language": "it",
+          "@value": "Campeggio"
+        },
+        {
+          "@language": "ka",
+          "@value": "ბანაკის ადგილი"
+        },
+        {
+          "@language": "ru",
+          "@value": "Лагерь"
+        },
+        {
+          "@language": "ast",
+          "@value": "Camping"
+        },
+        {
+          "@language": "fr",
+          "@value": "Camping"
+        },
+        {
+          "@language": "zh-hant",
+          "@value": "營地"
+        },
+        {
+          "@language": "en-gb",
+          "@value": "Camp Site"
+        },
+        {
+          "@language": "tl",
+          "@value": "Pook ng Kampo"
+        },
+        {
+          "@language": "dsb",
+          "@value": "Campingowanišćo"
+        },
+        {
+          "@language": "sv",
+          "@value": "Campingplats"
+        },
+        {
+          "@language": "be-tarask",
+          "@value": "Кемпінг"
+        },
+        {
+          "@language": "nl",
+          "@value": "Kampeerterrein"
+        },
+        {
+          "@language": "br",
+          "@value": "Tachenn gampiñ"
+        },
+        {
+          "@language": "sq",
+          "@value": "Ven per kamping"
+        },
+        {
+          "@language": "aln",
+          "@value": "Ven per kamping"
+        },
+        {
+          "@language": "zh-hans",
+          "@value": "野营地"
+        },
+        {
+          "@language": "pt-br",
+          "@value": "Acampamento"
+        },
+        {
+          "@language": "hu",
+          "@value": "Kemping"
+        },
+        {
+          "@language": "pl",
+          "@value": "Kemping"
+        },
+        {
+          "@language": "sk",
+          "@value": "Kemping"
+        },
+        {
+          "@language": "hsb",
+          "@value": "Stanowanišćo"
+        },
+        {
+          "@language": "arz",
+          "@value": "موقع تخييم"
+        },
+        {
+          "@language": "ar",
+          "@value": "موقع تخييم"
+        },
+        {
+          "@language": "de",
+          "@value": "Campingplatz"
+        },
+        {
+          "@language": "tr",
+          "@value": "Kamp yeri"
+        },
+        {
+          "@language": "vi",
+          "@value": "Nơi Cắm trại"
+        },
+        {
+          "@language": "lv",
+          "@value": "Nometnes vieta"
+        },
+        {
+          "@language": "uk",
+          "@value": "Турбаза"
+        },
+        {
+          "@language": "cs",
+          "@value": "Tábořiště, kemp"
+        },
+        {
+          "@language": "mk",
+          "@value": "Камп"
+        },
+        {
+          "@language": "sr-ec",
+          "@value": "Камп"
+        },
+        {
+          "@language": "ca",
+          "@value": "Campament"
+        },
+        {
+          "@language": "eu",
+          "@value": "Kanpin"
+        },
+        {
+          "@language": "da",
+          "@value": "Lejrplads"
+        },
+        {
+          "@language": "hr",
+          "@value": "Kamp"
+        },
+        {
+          "@language": "sl",
+          "@value": "Kamp"
+        },
+        {
+          "@language": "sr-el",
+          "@value": "Kamp"
+        },
+        {
+          "@language": "ja",
+          "@value": "キャンプ場"
+        }
+      ],
+      "subClassOf": "http://openthings.cc/ontology/TourismThing",
+      "equivalentClass": ["http://linkedgeodata.org/ontology/CampSite"]
+    },
+    {
+      "@id": "http://opengids.cc/ontology/CaravanSite",
+      "@type": "owl:Class",
+      "label": [
+        {
+          "@language": "pt-br",
+          "@value": "Acampamento de Caravanas"
+        },
+        {
+          "@language": "fr",
+          "@value": "Site de caravane"
+        },
+        {
+          "@language": "no",
+          "@value": "Campingplass"
+        },
+        {
+          "@language": "en-gb",
+          "@value": "Caravan Site"
+        },
+        {
+          "@language": "ar",
+          "@value": "موقع قافلة"
+        },
+        {
+          "@language": "arz",
+          "@value": "موقع قافلة"
+        },
+        {
+          "@language": "lv",
+          "@value": "Kempings"
+        },
+        {
+          "@language": "br",
+          "@value": "Tachenn karavanennoù"
+        },
+        {
+          "@language": "hsb",
+          "@value": "Campingowanišćo za caravany"
+        },
+        {
+          "@language": "he",
+          "@value": "אתר קרוואן"
+        },
+        {
+          "@language": "tr",
+          "@value": "Karavan yeri"
+        },
+        {
+          "@language": "ca",
+          "@value": "Càmping per a caravanes"
+        },
+        {
+          "@language": "dsb",
+          "@value": "Zmakanišćo za bydleńske wóze"
+        },
+        {
+          "@language": "mk",
+          "@value": "Автокамп"
+        },
+        {
+          "@language": "nl",
+          "@value": "Caravankampeerterrein"
+        },
+        {
+          "@language": "tl",
+          "@value": "Lugar ng Karabana"
+        },
+        {
+          "@language": "sv",
+          "@value": "Husvagnsuppställningsplats"
+        },
+        {
+          "@language": "be-tarask",
+          "@value": "Пляцоўка для трэйлераў"
+        },
+        {
+          "@language": "fi",
+          "@value": "Leirintäalue"
+        },
+        {
+          "@language": "cs",
+          "@value": "Autokemping"
+        },
+        {
+          "@language": "sk",
+          "@value": "Autokemping"
+        },
+        {
+          "@language": "uk",
+          "@value": "Майданчик для трейлерів"
+        },
+        {
+          "@language": "da",
+          "@value": "Campingplads"
+        },
+        {
+          "@language": "hr",
+          "@value": "Kamp-kućice (mjesto)"
+        },
+        {
+          "@language": "de",
+          "@value": "Wohnwagen-Stellplatz"
+        },
+        {
+          "@language": "sl",
+          "@value": "Kamp"
+        },
+        {
+          "@language": "ast",
+          "@value": "Camping pa caravanes"
+        },
+        {
+          "@language": "sr-el",
+          "@value": "Kamp-prikolice"
+        },
+        {
+          "@language": "aln",
+          "@value": "Karavan i faqes"
+        },
+        {
+          "@language": "ru",
+          "@value": "Караван-сарай"
+        },
+        {
+          "@language": "pl",
+          "@value": "Miejsce na przyczepę campingową"
+        },
+        {
+          "@language": "sr-ec",
+          "@value": "Камп-приколице"
+        },
+        {
+          "@language": "ia",
+          "@value": "Terreno pro caravanas"
+        },
+        {
+          "@language": "zh-hans",
+          "@value": "拖车营地"
+        },
+        {
+          "@language": "hu",
+          "@value": "Lakókocsitábor"
+        },
+        {
+          "@language": "it",
+          "@value": "Area caravan e camper"
+        },
+        {
+          "@language": "lt",
+          "@value": "Kemperių aikštelė"
+        },
+        {
+          "@language": "gl",
+          "@value": "Sitio de caravanas"
+        },
+        {
+          "@language": "af",
+          "@value": "Karavaanpark"
+        },
+        {
+          "@language": "es",
+          "@value": "Camping para caravanas"
+        }
+      ],
+      "subClassOf": "http://openthings.cc/ontology/TourismThing",
+      "equivalentClass": ["http://linkedgeodata.org/ontology/CaravanSite"]
+    },
+    {
+      "@id": "http://opengids.cc/ontology/Chalet",
+      "@type": "owl:Class",
+      "label": [
+        {
+          "@language": "sv",
+          "@value": "Stuga"
+        },
+        {
+          "@language": "hsb",
+          "@value": "Chata"
+        },
+        {
+          "@language": "sl",
+          "@value": "Apartma"
+        },
+        {
+          "@language": "br",
+          "@value": "Ti-menez"
+        },
+        {
+          "@language": "rue",
+          "@value": "Велика хата"
+        },
+        {
+          "@language": "nl",
+          "@value": "Vakantiehuisje"
+        },
+        {
+          "@language": "es",
+          "@value": "Chalet"
+        },
+        {
+          "@language": "af",
+          "@value": "Chalet"
+        },
+        {
+          "@language": "da",
+          "@value": "Chalet"
+        },
+        {
+          "@language": "en-gb",
+          "@value": "Chalet"
+        },
+        {
+          "@language": "fr",
+          "@value": "Chalet"
+        },
+        {
+          "@language": "ia",
+          "@value": "Chalet"
+        },
+        {
+          "@language": "lb",
+          "@value": "Chalet"
+        },
+        {
+          "@language": "tl",
+          "@value": "Kubo ng Pastol"
+        },
+        {
+          "@language": "ar",
+          "@value": "شاليه"
+        },
+        {
+          "@language": "arz",
+          "@value": "شاليه"
+        },
+        {
+          "@language": "fa",
+          "@value": "کلبه ییلاقی"
+        },
+        {
+          "@language": "pl",
+          "@value": "Schronisko"
+        },
+        {
+          "@language": "cs",
+          "@value": "Chalupa"
+        },
+        {
+          "@language": "be-tarask",
+          "@value": "Шале"
+        },
+        {
+          "@language": "ru",
+          "@value": "Шале"
+        },
+        {
+          "@language": "uk",
+          "@value": "Шале"
+        },
+        {
+          "@language": "gl",
+          "@value": "Chalé"
+        },
+        {
+          "@language": "pt",
+          "@value": "Chalé"
+        },
+        {
+          "@language": "pt-br",
+          "@value": "Chalé"
+        },
+        {
+          "@language": "fi",
+          "@value": "Alppimaja"
+        },
+        {
+          "@language": "tr",
+          "@value": "Yayla evi"
+        },
+        {
+          "@language": "he",
+          "@value": "טירה"
+        },
+        {
+          "@language": "eu",
+          "@value": "Txalet"
+        },
+        {
+          "@language": "ja",
+          "@value": "別荘"
+        },
+        {
+          "@language": "no",
+          "@value": "Fjellhytte"
+        },
+        {
+          "@language": "it",
+          "@value": "Casetta (chalet)"
+        },
+        {
+          "@language": "zh-hans",
+          "@value": "木屋"
+        },
+        {
+          "@language": "vi",
+          "@value": "Nhà ván"
+        },
+        {
+          "@language": "ast",
+          "@value": "Xalé"
+        },
+        {
+          "@language": "hr",
+          "@value": "Planinska kuća"
+        },
+        {
+          "@language": "sk",
+          "@value": "Veľká chata"
+        },
+        {
+          "@language": "aln",
+          "@value": "Shpi"
+        },
+        {
+          "@language": "ca",
+          "@value": "Xalet"
+        },
+        {
+          "@language": "sr-ec",
+          "@value": "Планинска колиба"
+        },
+        {
+          "@language": "sr-el",
+          "@value": "Planinska koliba"
+        },
+        {
+          "@language": "dsb",
+          "@value": "Prozninski domcyk"
+        },
+        {
+          "@language": "mk",
+          "@value": "Брвнара"
+        },
+        {
+          "@language": "hu",
+          "@value": "Nyaralóház"
+        },
+        {
+          "@language": "de",
+          "@value": "Almhütte"
+        },
+        {
+          "@language": "lt",
+          "@value": "Trobelė"
+        }
+      ],
+      "subClassOf": "http://openthings.cc/ontology/TourismThing",
+      "equivalentClass": [
+        "http://www.data.ign.fr/rge/taxoign.owl#Hameau",
+        "http://www.data.ign.fr/rge/taxoign.owl#Chalet",
+        "http://linkedgeodata.org/ontology/Chalet"
+      ]
+    },
+    {
+      "@id": "http://opengids.cc/ontology/GuestHouse",
+      "@type": "owl:Class",
+      "label": [
+        {
+          "@language": "ca",
+          "@value": "Alberg"
+        },
+        {
+          "@language": "da",
+          "@value": "Guesthouse (hotel)"
+        },
+        {
+          "@language": "lv",
+          "@value": "Viesu nams"
+        },
+        {
+          "@language": "arz",
+          "@value": "بيت ضيافة"
+        },
+        {
+          "@language": "ar",
+          "@value": "بيت ضيافة"
+        },
+        {
+          "@language": "hsb",
+          "@value": "Hóstny dom"
+        },
+        {
+          "@language": "be-tarask",
+          "@value": "Домік для гасьцей"
+        },
+        {
+          "@language": "nds",
+          "@value": "Gasthuus"
+        },
+        {
+          "@language": "ja",
+          "@value": "民宿"
+        },
+        {
+          "@language": "lt",
+          "@value": "Svečių namai"
+        },
+        {
+          "@language": "af",
+          "@value": "Gastehuis"
+        },
+        {
+          "@language": "vi",
+          "@value": "Nhà khách"
+        },
+        {
+          "@language": "he",
+          "@value": "בית הארחה"
+        },
+        {
+          "@language": "tr",
+          "@value": "Konuk Evi"
+        },
+        {
+          "@language": "eu",
+          "@value": "Aterpe"
+        },
+        {
+          "@language": "ia",
+          "@value": "Albergo"
+        },
+        {
+          "@language": "no",
+          "@value": "Gjestehus"
+        },
+        {
+          "@language": "en-gb",
+          "@value": "Guest House"
+        },
+        {
+          "@language": "it",
+          "@value": "Guest House"
+        },
+        {
+          "@language": "cs",
+          "@value": "Penzion"
+        },
+        {
+          "@language": "sl",
+          "@value": "Penzion"
+        },
+        {
+          "@language": "zh-hans",
+          "@value": "宾馆"
+        },
+        {
+          "@language": "es",
+          "@value": "Albergue"
+        },
+        {
+          "@language": "gl",
+          "@value": "Albergue"
+        },
+        {
+          "@language": "pt-br",
+          "@value": "Albergue"
+        },
+        {
+          "@language": "ka",
+          "@value": "სასტუმრო სახლი"
+        },
+        {
+          "@language": "hu",
+          "@value": "Vendégház"
+        },
+        {
+          "@language": "nl",
+          "@value": "Gastenverblijf"
+        },
+        {
+          "@language": "ast",
+          "@value": "Agospiamientu"
+        },
+        {
+          "@language": "pl",
+          "@value": "Pensjonat"
+        },
+        {
+          "@language": "is",
+          "@value": "Gesthús"
+        },
+        {
+          "@language": "dsb",
+          "@value": "Góstny dom"
+        },
+        {
+          "@language": "mk",
+          "@value": "Пансион"
+        },
+        {
+          "@language": "hr",
+          "@value": "Apartman"
+        },
+        {
+          "@language": "sr-ec",
+          "@value": "Гостинска кућа"
+        },
+        {
+          "@language": "et",
+          "@value": "külalistemaja"
+        },
+        {
+          "@language": "de",
+          "@value": "Gasthaus"
+        },
+        {
+          "@language": "tl",
+          "@value": "Bahay na Pampanauhin"
+        },
+        {
+          "@language": "br",
+          "@value": "Ti herberc'h"
+        },
+        {
+          "@language": "sk",
+          "@value": "Penzión"
+        },
+        {
+          "@language": "sr-el",
+          "@value": "Gostinska kuća"
+        },
+        {
+          "@language": "sv",
+          "@value": "Gäststuga"
+        },
+        {
+          "@language": "rue",
+          "@value": "Пензіон"
+        },
+        {
+          "@language": "ru",
+          "@value": "Домик для гостей"
+        },
+        {
+          "@language": "zh-hant",
+          "@value": "賓館"
+        },
+        {
+          "@language": "uk",
+          "@value": "Гостьовий будинок"
+        },
+        {
+          "@language": "ps",
+          "@value": "مېلمستون"
+        },
+        {
+          "@language": "aln",
+          "@value": "Shpi e musafirve"
+        },
+        {
+          "@language": "fr",
+          "@value": "Maison d'hôte"
+        }
+      ],
+      "subClassOf": "http://openthings.cc/ontology/TourismThing",
+      "equivalentClass": ["http://linkedgeodata.org/ontology/GuestHouse"]
+    },
+    {
+      "@id": "http://opengids.cc/ontology/Hanami",
+      "@type": "owl:Class",
+      "subClassOf": "http://openthings.cc/ontology/TourismThing",
+      "equivalentClass": ["http://linkedgeodata.org/ontology/Hanami"]
+    },
+    {
+      "@id": "http://opengids.cc/ontology/Hostel",
+      "@type": "owl:Class",
+      "label": [
+        {
+          "@language": "ja",
+          "@value": "ホステル"
+        },
+        {
+          "@language": "nds",
+          "@value": "Jöögdharbarg"
+        },
+        {
+          "@language": "pt-br",
+          "@value": "Abrigo"
+        },
+        {
+          "@language": "zh-hant",
+          "@value": "旅舍"
+        },
+        {
+          "@language": "mk",
+          "@value": "Хостел"
+        },
+        {
+          "@language": "ru",
+          "@value": "Хостел"
+        },
+        {
+          "@language": "sr-ec",
+          "@value": "Хостел"
+        },
+        {
+          "@language": "uk",
+          "@value": "Хостел"
+        },
+        {
+          "@language": "sv",
+          "@value": "Vandrarhem"
+        },
+        {
+          "@language": "vi",
+          "@value": "Nhà trọ"
+        },
+        {
+          "@language": "ps",
+          "@value": "ليليه"
+        },
+        {
+          "@language": "hsb",
+          "@value": "Hospoda"
+        },
+        {
+          "@language": "af",
+          "@value": "Hotel"
+        },
+        {
+          "@language": "br",
+          "@value": "Herberc'h"
+        },
+        {
+          "@language": "it",
+          "@value": "Ostello"
+        },
+        {
+          "@language": "nl",
+          "@value": "Jeugdherberg"
+        },
+        {
+          "@language": "no",
+          "@value": "Vandrerhjem"
+        },
+        {
+          "@language": "da",
+          "@value": "Vandrerhjem"
+        },
+        {
+          "@language": "de",
+          "@value": "Jugendherberge"
+        },
+        {
+          "@language": "he",
+          "@value": "אכסנייה"
+        },
+        {
+          "@language": "ca",
+          "@value": "Hostal"
+        },
+        {
+          "@language": "es",
+          "@value": "Hostal"
+        },
+        {
+          "@language": "gl",
+          "@value": "Hostal"
+        },
+        {
+          "@language": "fi",
+          "@value": "Hostelli"
+        },
+        {
+          "@language": "ia",
+          "@value": "Albergo"
+        },
+        {
+          "@language": "fur",
+          "@value": "Ostel"
+        },
+        {
+          "@language": "sk",
+          "@value": "Ubytovňa, internát"
+        },
+        {
+          "@language": "hu",
+          "@value": "Turistaszálló"
+        },
+        {
+          "@language": "zh-hans",
+          "@value": "旅馆"
+        },
+        {
+          "@language": "cs",
+          "@value": "Hostel"
+        },
+        {
+          "@language": "en-gb",
+          "@value": "Hostel"
+        },
+        {
+          "@language": "et",
+          "@value": "Hostel"
+        },
+        {
+          "@language": "hr",
+          "@value": "Hostel"
+        },
+        {
+          "@language": "ms",
+          "@value": "Hostel"
+        },
+        {
+          "@language": "pl",
+          "@value": "Hostel"
+        },
+        {
+          "@language": "sl",
+          "@value": "Hostel"
+        },
+        {
+          "@language": "sr-el",
+          "@value": "Hostel"
+        },
+        {
+          "@language": "tl",
+          "@value": "Hostel"
+        },
+        {
+          "@language": "tr",
+          "@value": "Hostel"
+        },
+        {
+          "@language": "ka",
+          "@value": "ჰოსტელი"
+        },
+        {
+          "@language": "lt",
+          "@value": "Hostelis"
+        },
+        {
+          "@language": "lv",
+          "@value": "Hostelis"
+        },
+        {
+          "@language": "ast",
+          "@value": "Albergue"
+        },
+        {
+          "@language": "fr",
+          "@value": "Auberge"
+        },
+        {
+          "@language": "aln",
+          "@value": "Bujtine"
+        },
+        {
+          "@language": "sq",
+          "@value": "Bujtine"
+        },
+        {
+          "@language": "fa",
+          "@value": "هتل"
+        },
+        {
+          "@language": "dsb",
+          "@value": "Młodownja"
+        },
+        {
+          "@language": "be-tarask",
+          "@value": "Хостэл"
+        },
+        {
+          "@language": "eu",
+          "@value": "Ostatu"
+        },
+        {
+          "@language": "arz",
+          "@value": "سكن شباب"
+        },
+        {
+          "@language": "ar",
+          "@value": "سكن شباب"
+        }
+      ],
+      "subClassOf": "http://openthings.cc/ontology/TourismThing",
+      "equivalentClass": [
+        "http://www.data.ign.fr/rge/taxoign.owl#HÃ´tel",
+        "http://linkedgeodata.org/ontology/Hostel"
+      ]
+    },
+    {
+      "@id": "http://opengids.cc/ontology/Motel",
+      "@type": "owl:Class",
+      "label": [
+        {
+          "@language": "pl",
+          "@value": "Motel"
+        },
+        {
+          "@language": "fi",
+          "@value": "Motelli"
+        },
+        {
+          "@language": "pt",
+          "@value": "Motel"
+        },
+        {
+          "@language": "pt-br",
+          "@value": "Motel"
+        },
+        {
+          "@language": "sk",
+          "@value": "Motel"
+        },
+        {
+          "@language": "sl",
+          "@value": "Motel"
+        },
+        {
+          "@language": "sq",
+          "@value": "Motel"
+        },
+        {
+          "@language": "sr-el",
+          "@value": "Motel"
+        },
+        {
+          "@language": "tl",
+          "@value": "Motel"
+        },
+        {
+          "@language": "tr",
+          "@value": "Motel"
+        },
+        {
+          "@language": "et",
+          "@value": "motell"
+        },
+        {
+          "@language": "ast",
+          "@value": "Motel"
+        },
+        {
+          "@language": "br",
+          "@value": "Motel"
+        },
+        {
+          "@language": "ca",
+          "@value": "Motel"
+        },
+        {
+          "@language": "cs",
+          "@value": "Motel"
+        },
+        {
+          "@language": "da",
+          "@value": "Motel"
+        },
+        {
+          "@language": "af",
+          "@value": "Motel"
+        },
+        {
+          "@language": "aln",
+          "@value": "Motel"
+        },
+        {
+          "@language": "de",
+          "@value": "Motel"
+        },
+        {
+          "@language": "dsb",
+          "@value": "Motel"
+        },
+        {
+          "@language": "be-tarask",
+          "@value": "Матэль"
+        },
+        {
+          "@language": "zh-hans",
+          "@value": "汽车旅馆"
+        },
+        {
+          "@language": "is",
+          "@value": "Mótel"
+        },
+        {
+          "@language": "no",
+          "@value": "Motell"
+        },
+        {
+          "@language": "sv",
+          "@value": "Motell"
+        },
+        {
+          "@language": "uk",
+          "@value": "Мотель"
+        },
+        {
+          "@language": "ru",
+          "@value": "Мотель"
+        },
+        {
+          "@language": "he",
+          "@value": "מלון דרכים"
+        },
+        {
+          "@language": "lt",
+          "@value": "Motelis"
+        },
+        {
+          "@language": "lv",
+          "@value": "Motelis"
+        },
+        {
+          "@language": "fa",
+          "@value": "متل"
+        },
+        {
+          "@language": "ka",
+          "@value": "მოტელი"
+        },
+        {
+          "@language": "arz",
+          "@value": "نُزل"
+        },
+        {
+          "@language": "ar",
+          "@value": "نُزل"
+        },
+        {
+          "@language": "vi",
+          "@value": "Khách sạn Dọc đường"
+        },
+        {
+          "@language": "ja",
+          "@value": "モーテル"
+        },
+        {
+          "@language": "zh-hant",
+          "@value": "汽車旅館"
+        },
+        {
+          "@language": "sr-ec",
+          "@value": "Мотел"
+        },
+        {
+          "@language": "rue",
+          "@value": "Мотел"
+        },
+        {
+          "@language": "mk",
+          "@value": "Мотел"
+        },
+        {
+          "@language": "en-gb",
+          "@value": "Motel"
+        },
+        {
+          "@language": "es",
+          "@value": "Motel"
+        },
+        {
+          "@language": "eu",
+          "@value": "Motel"
+        },
+        {
+          "@language": "fr",
+          "@value": "Motel"
+        },
+        {
+          "@language": "gl",
+          "@value": "Motel"
+        },
+        {
+          "@language": "hr",
+          "@value": "Motel"
+        },
+        {
+          "@language": "hsb",
+          "@value": "Motel"
+        },
+        {
+          "@language": "hu",
+          "@value": "Motel"
+        },
+        {
+          "@language": "ia",
+          "@value": "Motel"
+        },
+        {
+          "@language": "it",
+          "@value": "Motel"
+        },
+        {
+          "@language": "nds",
+          "@value": "Motel"
+        },
+        {
+          "@language": "nl",
+          "@value": "Motel"
+        }
+      ],
+      "subClassOf": "http://openthings.cc/ontology/TourismThing",
+      "equivalentClass": [
+        "http://www.data.ign.fr/rge/taxoign.owl#HÃ´tel",
+        "http://linkedgeodata.org/ontology/Motel"
+      ]
+    },
+    {
+      "@id": "http://opengids.cc/ontology/Museum",
+      "@type": "owl:Class",
+      "label": [
+        {
+          "@language": "sr-ec",
+          "@value": "Музеј"
+        },
+        {
+          "@language": "mk",
+          "@value": "Музеј"
+        },
+        {
+          "@language": "zh-hans",
+          "@value": "博物馆"
+        },
+        {
+          "@language": "ka",
+          "@value": "მუზეუმი"
+        },
+        {
+          "@language": "fa",
+          "@value": "موزه"
+        },
+        {
+          "@language": "zh-hant",
+          "@value": "博物館"
+        },
+        {
+          "@language": "et",
+          "@value": "muuseum"
+        },
+        {
+          "@language": "ja",
+          "@value": "博物館"
+        },
+        {
+          "@language": "af",
+          "@value": "Museum"
+        },
+        {
+          "@language": "da",
+          "@value": "Museum"
+        },
+        {
+          "@language": "de",
+          "@value": "Museum"
+        },
+        {
+          "@language": "en-gb",
+          "@value": "Museum"
+        },
+        {
+          "@language": "nds",
+          "@value": "Museum"
+        },
+        {
+          "@language": "nl",
+          "@value": "Museum"
+        },
+        {
+          "@language": "no",
+          "@value": "Museum"
+        },
+        {
+          "@language": "sv",
+          "@value": "Museum"
+        },
+        {
+          "@language": "lt",
+          "@value": "Muziejus"
+        },
+        {
+          "@language": "br",
+          "@value": "Mirdi"
+        },
+        {
+          "@language": "vi",
+          "@value": "Bảo tàng"
+        },
+        {
+          "@language": "aln",
+          "@value": "Muze"
+        },
+        {
+          "@language": "sq",
+          "@value": "Muze"
+        },
+        {
+          "@language": "he",
+          "@value": "מוזיאון"
+        },
+        {
+          "@language": "hr",
+          "@value": "Muzej"
+        },
+        {
+          "@language": "hsb",
+          "@value": "Muzej"
+        },
+        {
+          "@language": "sl",
+          "@value": "Muzej"
+        },
+        {
+          "@language": "sr-el",
+          "@value": "Muzej"
+        },
+        {
+          "@language": "arz",
+          "@value": "متحف"
+        },
+        {
+          "@language": "ar",
+          "@value": "متحف"
+        },
+        {
+          "@language": "ast",
+          "@value": "Muséu"
+        },
+        {
+          "@language": "uk",
+          "@value": "Музей"
+        },
+        {
+          "@language": "rue",
+          "@value": "Музей"
+        },
+        {
+          "@language": "ru",
+          "@value": "Музей"
+        },
+        {
+          "@language": "myv",
+          "@value": "Музей"
+        },
+        {
+          "@language": "ca",
+          "@value": "Museu"
+        },
+        {
+          "@language": "fur",
+          "@value": "Museu"
+        },
+        {
+          "@language": "pt",
+          "@value": "Museu"
+        },
+        {
+          "@language": "pt-br",
+          "@value": "Museu"
+        },
+        {
+          "@language": "ps",
+          "@value": "موزيم"
+        },
+        {
+          "@language": "fr",
+          "@value": "Musée"
+        },
+        {
+          "@language": "lb",
+          "@value": "Musée"
+        },
+        {
+          "@language": "el",
+          "@value": "Μουσείο"
+        },
+        {
+          "@language": "cs",
+          "@value": "Muzeum"
+        },
+        {
+          "@language": "dsb",
+          "@value": "Muzeum"
+        },
+        {
+          "@language": "pl",
+          "@value": "Muzeum"
+        },
+        {
+          "@language": "is",
+          "@value": "Safn"
+        },
+        {
+          "@language": "tr",
+          "@value": "Müze"
+        },
+        {
+          "@language": "be-tarask",
+          "@value": "Музэй"
+        },
+        {
+          "@language": "hu",
+          "@value": "Múzeum"
+        },
+        {
+          "@language": "sk",
+          "@value": "Múzeum"
+        },
+        {
+          "@language": "lv",
+          "@value": "Muzejs"
+        },
+        {
+          "@language": "eu",
+          "@value": "Museoa"
+        },
+        {
+          "@language": "fi",
+          "@value": "Museo"
+        },
+        {
+          "@language": "es",
+          "@value": "Museo"
+        },
+        {
+          "@language": "gl",
+          "@value": "Museo"
+        },
+        {
+          "@language": "ia",
+          "@value": "Museo"
+        },
+        {
+          "@language": "it",
+          "@value": "Museo"
+        },
+        {
+          "@language": "tl",
+          "@value": "Museo"
+        }
+      ],
+      "subClassOf": "http://openthings.cc/ontology/TourismThing",
+      "equivalentClass": ["http://linkedgeodata.org/ontology/Museum"]
+    },
+
+    {
+      "@id": "http://opengids.cc/ontology/PicnicSite",
+      "@type": "owl:Class",
+      "label": [
+        {
+          "@language": "fr",
+          "@value": "Site de pique-nique"
+        },
+        {
+          "@language": "eu",
+          "@value": "Piknik-gune"
+        },
+        {
+          "@language": "es",
+          "@value": "Área de picnic"
+        },
+        {
+          "@language": "tl",
+          "@value": "Pook na Pampiknik"
+        },
+        {
+          "@language": "br",
+          "@value": "Lec'hienn biknikañ"
+        },
+        {
+          "@language": "sr-el",
+          "@value": "Mesto za piknik"
+        },
+        {
+          "@language": "cs",
+          "@value": "Piknikové místo"
+        },
+        {
+          "@language": "dsb",
+          "@value": "Piknikowanišćo"
+        },
+        {
+          "@language": "hsb",
+          "@value": "Piknikowanišćo"
+        },
+        {
+          "@language": "de",
+          "@value": "Piknikplatz"
+        },
+        {
+          "@language": "sl",
+          "@value": "Prostor za piknike"
+        },
+        {
+          "@language": "af",
+          "@value": "Piekniekplek"
+        },
+        {
+          "@language": "nl",
+          "@value": "Picknickplaats"
+        },
+        {
+          "@language": "hr",
+          "@value": "Piknik-mjesto"
+        },
+        {
+          "@language": "lv",
+          "@value": "Piknika vieta"
+        },
+        {
+          "@language": "uk",
+          "@value": "Місце для пікніків"
+        },
+        {
+          "@language": "sv",
+          "@value": "Picknickplats"
+        },
+        {
+          "@language": "pl",
+          "@value": "Miejsce na piknik"
+        },
+        {
+          "@language": "gl",
+          "@value": "Sitio de pícnic"
+        },
+        {
+          "@language": "ca",
+          "@value": "Àrea de pícnic"
+        },
+        {
+          "@language": "ia",
+          "@value": "Loco de picnic"
+        },
+        {
+          "@language": "arz",
+          "@value": "موقع بيك نيك"
+        },
+        {
+          "@language": "ar",
+          "@value": "موقع بيك نيك"
+        },
+        {
+          "@language": "ast",
+          "@value": "Área recreativa"
+        },
+        {
+          "@language": "ru",
+          "@value": "Место для пикника"
+        },
+        {
+          "@language": "en-gb",
+          "@value": "Picnic Site"
+        },
+        {
+          "@language": "lt",
+          "@value": "Poilsiavietė"
+        },
+        {
+          "@language": "vi",
+          "@value": "Bàn ăn Ngoài trời"
+        },
+        {
+          "@language": "no",
+          "@value": "Piknikplass"
+        },
+        {
+          "@language": "et",
+          "@value": "piknikuplats"
+        },
+        {
+          "@language": "ka",
+          "@value": "საპიკნიკე ადგილი"
+        },
+        {
+          "@language": "hu",
+          "@value": "Piknikezőhely"
+        },
+        {
+          "@language": "he",
+          "@value": "אתר פיקניק"
+        },
+        {
+          "@language": "lb",
+          "@value": "Piknikplaz"
+        },
+        {
+          "@language": "be-tarask",
+          "@value": "Месца для пікніка"
+        },
+        {
+          "@language": "ps",
+          "@value": "مېله ځای"
+        },
+        {
+          "@language": "pt-br",
+          "@value": "Área de Piquenique"
+        },
+        {
+          "@language": "sq",
+          "@value": "Vend per Piknik"
+        },
+        {
+          "@language": "aln",
+          "@value": "Vend per Piknik"
+        },
+        {
+          "@language": "fi",
+          "@value": "Piknik-paikka"
+        },
+        {
+          "@language": "da",
+          "@value": "Picnicsted"
+        },
+        {
+          "@language": "zh-hant",
+          "@value": "野餐地"
+        },
+        {
+          "@language": "zh-hans",
+          "@value": "野餐地"
+        },
+        {
+          "@language": "it",
+          "@value": "Area picnic"
+        },
+        {
+          "@language": "sk",
+          "@value": "Výletné miesto"
+        },
+        {
+          "@language": "mk",
+          "@value": "Излетничко место"
+        },
+        {
+          "@language": "tr",
+          "@value": "Piknik yeri"
+        },
+        {
+          "@language": "sr-ec",
+          "@value": "Место за пикник"
+        }
+      ],
+      "subClassOf": "http://openthings.cc/ontology/TourismThing",
+      "equivalentClass": ["http://linkedgeodata.org/ontology/PicnicSite"]
+    },
+
+    {
+      "@id": "http://opengids.cc/ontology/ThemePark",
+      "@type": "owl:Class",
+      "label": [
+        {
+          "@language": "ia",
+          "@value": "Parco de attractiones"
+        },
+        {
+          "@language": "ru",
+          "@value": "Аттракционы"
+        },
+        {
+          "@language": "rue",
+          "@value": "Тематічный парк"
+        },
+        {
+          "@language": "arz",
+          "@value": "حديقه ملاهي"
+        },
+        {
+          "@language": "hr",
+          "@value": "Tematski park"
+        },
+        {
+          "@language": "sr-el",
+          "@value": "Tematski park"
+        },
+        {
+          "@language": "eu",
+          "@value": "Parke tematiko"
+        },
+        {
+          "@language": "ast",
+          "@value": "Parque temáticu"
+        },
+        {
+          "@language": "et",
+          "@value": "Teemapark"
+        },
+        {
+          "@language": "sr-ec",
+          "@value": "Тематски парк"
+        },
+        {
+          "@language": "af",
+          "@value": "Pretpark"
+        },
+        {
+          "@language": "nl",
+          "@value": "Pretpark"
+        },
+        {
+          "@language": "dsb",
+          "@value": "Rozwjaseleński park"
+        },
+        {
+          "@language": "es",
+          "@value": "Parque temático"
+        },
+        {
+          "@language": "gl",
+          "@value": "Parque temático"
+        },
+        {
+          "@language": "pt",
+          "@value": "Parque temático"
+        },
+        {
+          "@language": "tl",
+          "@value": "Liwasang may Tema"
+        },
+        {
+          "@language": "pt-br",
+          "@value": "Parque temático"
+        },
+        {
+          "@language": "ka",
+          "@value": "თემატური პარკი"
+        },
+        {
+          "@language": "sl",
+          "@value": "Zabaviščni park"
+        },
+        {
+          "@language": "ms",
+          "@value": "Taman Tema"
+        },
+        {
+          "@language": "no",
+          "@value": "Fornøyelsespark"
+        },
+        {
+          "@language": "be-tarask",
+          "@value": "Атракцыёны"
+        },
+        {
+          "@language": "fr",
+          "@value": "Parc à thème"
+        },
+        {
+          "@language": "he",
+          "@value": "פארק נושאי"
+        },
+        {
+          "@language": "cs",
+          "@value": "Zábavní park"
+        },
+        {
+          "@language": "sv",
+          "@value": "Nöjespark"
+        },
+        {
+          "@language": "da",
+          "@value": "Forlystelsespark"
+        },
+        {
+          "@language": "en-gb",
+          "@value": "Theme Park"
+        },
+        {
+          "@language": "hsb",
+          "@value": "Park zabawy"
+        },
+        {
+          "@language": "hu",
+          "@value": "Vidámpark"
+        },
+        {
+          "@language": "br",
+          "@value": "Park tematek"
+        },
+        {
+          "@language": "de",
+          "@value": "Vergnügungspark"
+        },
+        {
+          "@language": "ja",
+          "@value": "テーマパーク"
+        },
+        {
+          "@language": "sk",
+          "@value": "Zábavný park"
+        },
+        {
+          "@language": "vi",
+          "@value": "Công viên Giải trí"
+        },
+        {
+          "@language": "pl",
+          "@value": "Park tematyczny"
+        },
+        {
+          "@language": "aln",
+          "@value": "Park i lojnave"
+        },
+        {
+          "@language": "zh-hans",
+          "@value": "主题公园"
+        },
+        {
+          "@language": "lv",
+          "@value": "Atrakciju parks"
+        },
+        {
+          "@language": "it",
+          "@value": "Parco divertimenti"
+        },
+        {
+          "@language": "ca",
+          "@value": "Parc temàtic"
+        },
+        {
+          "@language": "tr",
+          "@value": "Lunapark"
+        },
+        {
+          "@language": "fi",
+          "@value": "Teemapuisto"
+        },
+        {
+          "@language": "uk",
+          "@value": "Тематичний парк"
+        },
+        {
+          "@language": "ar",
+          "@value": "حديقة ملاهي"
+        },
+        {
+          "@language": "mk",
+          "@value": "Забавен парк"
+        }
+      ],
+      "subClassOf": "http://openthings.cc/ontology/TourismThing",
+      "equivalentClass": ["http://linkedgeodata.org/ontology/ThemePark"]
+    },
+    {
+      "@id": "http://opengids.cc/ontology/TourismInformation",
+      "@type": "owl:Class",
+      "label": [
+        {
+          "@language": "hu",
+          "@value": "Információ"
+        },
+        {
+          "@language": "ru",
+          "@value": "Информация"
+        },
+        {
+          "@language": "pt",
+          "@value": "Informação"
+        },
+        {
+          "@language": "mk",
+          "@value": "Информации"
+        },
+        {
+          "@language": "ka",
+          "@value": "ინფორმაცია"
+        },
+        {
+          "@language": "no",
+          "@value": "Informasjon"
+        },
+        {
+          "@language": "aln",
+          "@value": "Informacione"
+        },
+        {
+          "@language": "sq",
+          "@value": "Informacione"
+        },
+        {
+          "@language": "et",
+          "@value": "informatsioon"
+        },
+        {
+          "@language": "en-gb",
+          "@value": "Information"
+        },
+        {
+          "@language": "ia",
+          "@value": "Information"
+        },
+        {
+          "@language": "arz",
+          "@value": "معلومات"
+        },
+        {
+          "@language": "ar",
+          "@value": "معلومات"
+        },
+        {
+          "@language": "tr",
+          "@value": "Turist Enformasyon"
+        },
+        {
+          "@language": "fa",
+          "@value": "اطلاعات"
+        },
+        {
+          "@language": "sv",
+          "@value": "Turistinformation"
+        },
+        {
+          "@language": "da",
+          "@value": "Turistinformation"
+        },
+        {
+          "@language": "de",
+          "@value": "Touristen-Information"
+        },
+        {
+          "@language": "ku-latn",
+          "@value": "Agahî"
+        },
+        {
+          "@language": "lb",
+          "@value": "Informatioun"
+        },
+        {
+          "@language": "zh-hant",
+          "@value": "資訊"
+        },
+        {
+          "@language": "fur",
+          "@value": "Informazions"
+        },
+        {
+          "@language": "it",
+          "@value": "Informazioni"
+        },
+        {
+          "@language": "af",
+          "@value": "Inligting"
+        },
+        {
+          "@language": "sr-el",
+          "@value": "Podaci"
+        },
+        {
+          "@language": "ca",
+          "@value": "Informació"
+        },
+        {
+          "@language": "nl",
+          "@value": "Gegevens"
+        },
+        {
+          "@language": "vi",
+          "@value": "Thông tin"
+        },
+        {
+          "@language": "ja",
+          "@value": "案内所"
+        },
+        {
+          "@language": "lv",
+          "@value": "Informācija"
+        },
+        {
+          "@language": "hr",
+          "@value": "Informacije"
+        },
+        {
+          "@language": "sl",
+          "@value": "Informacije"
+        },
+        {
+          "@language": "dsb",
+          "@value": "Informacije"
+        },
+        {
+          "@language": "is",
+          "@value": "Upplýsingar"
+        },
+        {
+          "@language": "eu",
+          "@value": "Informazioa"
+        },
+        {
+          "@language": "br",
+          "@value": "Titouroù"
+        },
+        {
+          "@language": "pl",
+          "@value": "Informacja turystyczna"
+        },
+        {
+          "@language": "sk",
+          "@value": "Informácie"
+        },
+        {
+          "@language": "te",
+          "@value": "సమాచారం"
+        },
+        {
+          "@language": "tl",
+          "@value": "Kabatiran"
+        },
+        {
+          "@language": "hsb",
+          "@value": "Informacija"
+        },
+        {
+          "@language": "lt",
+          "@value": "Informacija"
+        },
+        {
+          "@language": "cs",
+          "@value": "Turistické informace"
+        },
+        {
+          "@language": "zh-hans",
+          "@value": "信息"
+        },
+        {
+          "@language": "ps",
+          "@value": "مالومات"
+        },
+        {
+          "@language": "pt-br",
+          "@value": "Informações"
+        },
+        {
+          "@language": "fi",
+          "@value": "Infopiste"
+        },
+        {
+          "@language": "he",
+          "@value": "מידע"
+        },
+        {
+          "@language": "uk",
+          "@value": "Інформація"
+        },
+        {
+          "@language": "be-tarask",
+          "@value": "Інфармацыя"
+        },
+        {
+          "@language": "ast",
+          "@value": "Información"
+        },
+        {
+          "@language": "es",
+          "@value": "Información"
+        },
+        {
+          "@language": "gl",
+          "@value": "Información"
+        },
+        {
+          "@language": "sr-ec",
+          "@value": "Подаци"
+        },
+        {
+          "@language": "fr",
+          "@value": "Informations"
+        },
+        {
+          "@language": "ms",
+          "@value": "Maklumat"
+        }
+      ],
+      "subClassOf": "http://openthings.cc/ontology/TourismThing",
+      "equivalentClass": ["http://linkedgeodata.org/ontology/TourismInformation"]
+    },
+
+
+    {
+      "@id": "http://openthings.cc/ontology/Viewpoint",
+      "@type": "owl:Class",
+      "label": [
+        {
+          "@language": "ru",
+          "@value": "Смотровая площадка"
+        },
+        {
+          "@language": "lb",
+          "@value": "Aussiichtspunkt"
+        },
+        {
+          "@language": "cs",
+          "@value": "Místo s dobrým výhledem"
+        },
+        {
+          "@language": "en-gb",
+          "@value": "Viewpoint"
+        },
+        {
+          "@language": "nl",
+          "@value": "Bijzonder uitzicht"
+        },
+        {
+          "@language": "ast",
+          "@value": "Mirador"
+        },
+        {
+          "@language": "ca",
+          "@value": "Mirador"
+        },
+        {
+          "@language": "es",
+          "@value": "Mirador"
+        },
+        {
+          "@language": "pt-br",
+          "@value": "Mirador"
+        },
+        {
+          "@language": "af",
+          "@value": "Uitkykpunt"
+        },
+        {
+          "@language": "uk",
+          "@value": "Оглядовий майданчик"
+        },
+        {
+          "@language": "sl",
+          "@value": "Razgledna točka"
+        },
+        {
+          "@language": "zh-hans",
+          "@value": "景点"
+        },
+        {
+          "@language": "eu",
+          "@value": "Behatoki"
+        },
+        {
+          "@language": "ia",
+          "@value": "Puncto de vista"
+        },
+        {
+          "@language": "pl",
+          "@value": "Punkt widokowy"
+        },
+        {
+          "@language": "fr",
+          "@value": "Point de vue"
+        },
+        {
+          "@language": "tl",
+          "@value": "Tuldok ng pananaw"
+        },
+        {
+          "@language": "sk",
+          "@value": "Rozhľadňa, výhliadka"
+        },
+        {
+          "@language": "mk",
+          "@value": "Видиковец"
+        },
+        {
+          "@language": "he",
+          "@value": "נקודת תצפית"
+        },
+        {
+          "@language": "sv",
+          "@value": "Utsiktspunkt"
+        },
+        {
+          "@language": "no",
+          "@value": "Utsiktspunkt"
+        },
+        {
+          "@language": "lv",
+          "@value": "Skatu punkts"
+        },
+        {
+          "@language": "ar",
+          "@value": "موقع كاشف"
+        },
+        {
+          "@language": "arz",
+          "@value": "موقع كاشف"
+        },
+        {
+          "@language": "lt",
+          "@value": "Apžvalgos aikštelė"
+        },
+        {
+          "@language": "de",
+          "@value": "Aussichtspunkt"
+        },
+        {
+          "@language": "vi",
+          "@value": "Thắng cảnh"
+        },
+        {
+          "@language": "dsb",
+          "@value": "Rozglědanišćo"
+        },
+        {
+          "@language": "sr-el",
+          "@value": "Vidikovac"
+        },
+        {
+          "@language": "hr",
+          "@value": "Vidikovac"
+        },
+        {
+          "@language": "fur",
+          "@value": "Pont panoramic"
+        },
+        {
+          "@language": "br",
+          "@value": "Gwelva"
+        },
+        {
+          "@language": "da",
+          "@value": "Udsigtspunkt"
+        },
+        {
+          "@language": "gl",
+          "@value": "Miradoiro"
+        },
+        {
+          "@language": "be-tarask",
+          "@value": "Аглядальная пляцоўка"
+        },
+        {
+          "@language": "fi",
+          "@value": "Näköalapaikka"
+        },
+        {
+          "@language": "sr-ec",
+          "@value": "Видиковац"
+        },
+        {
+          "@language": "it",
+          "@value": "Punto panoramico"
+        },
+        {
+          "@language": "hu",
+          "@value": "Kilátó"
+        },
+        {
+          "@language": "tr",
+          "@value": "Panoramik view"
+        },
+        {
+          "@language": "hsb",
+          "@value": "Wuhladnišćo"
+        },
+        {
+          "@language": "aln",
+          "@value": "Pike shikimi"
+        }
+      ],
+      "subClassOf": "http://openthings.cc/ontology/TourismThing",
+      "equivalentClass": [
+        "http://www.data.ign.fr/rge/taxoign.owl#PointDeVue",
+        "http://linkedgeodata.org/ontology/Viewpoint"
+      ]
+    },
+    {
+      "@id": "http://opengids.cc/ontology/Zoo",
+      "@type": "owl:Class",
+      "label": [
+        {
+          "@language": "ar",
+          "@value": "حديقة حيوانات"
+        },
+        {
+          "@language": "sr-ec",
+          "@value": "Зоолошки врт"
+        },
+        {
+          "@language": "sr-el",
+          "@value": "Zoološki vrt"
+        },
+        {
+          "@language": "tr",
+          "@value": "Hayvanat bahçesi"
+        },
+        {
+          "@language": "lt",
+          "@value": "Zoologijos sodas"
+        },
+        {
+          "@language": "he",
+          "@value": "גן חיות"
+        },
+        {
+          "@language": "lv",
+          "@value": "Zooloģiskais dārzs"
+        },
+        {
+          "@language": "sk",
+          "@value": "Zoo"
+        },
+        {
+          "@language": "pl",
+          "@value": "Zoo"
+        },
+        {
+          "@language": "nds",
+          "@value": "Zoo"
+        },
+        {
+          "@language": "pt-br",
+          "@value": "Zoológico"
+        },
+        {
+          "@language": "es",
+          "@value": "Zoológico"
+        },
+        {
+          "@language": "lb",
+          "@value": "Zoo"
+        },
+        {
+          "@language": "it",
+          "@value": "Zoo"
+        },
+        {
+          "@language": "hr",
+          "@value": "Zoo"
+        },
+        {
+          "@language": "fur",
+          "@value": "Zoo"
+        },
+        {
+          "@language": "zh-hans",
+          "@value": "动物园"
+        },
+        {
+          "@language": "fr",
+          "@value": "Zoo"
+        },
+        {
+          "@language": "en-gb",
+          "@value": "Zoo"
+        },
+        {
+          "@language": "de",
+          "@value": "Zoo"
+        },
+        {
+          "@language": "cs",
+          "@value": "Zoo"
+        },
+        {
+          "@language": "br",
+          "@value": "Zoo"
+        },
+        {
+          "@language": "ast",
+          "@value": "Zoo"
+        },
+        {
+          "@language": "ka",
+          "@value": "ზოოპარკი"
+        },
+        {
+          "@language": "et",
+          "@value": "Loomaaed"
+        },
+        {
+          "@language": "ms",
+          "@value": "Taman Haiwan"
+        },
+        {
+          "@language": "is",
+          "@value": "Dýragarður"
+        },
+        {
+          "@language": "ca",
+          "@value": "Zoològic"
+        },
+        {
+          "@language": "sl",
+          "@value": "Živalski vrt"
+        },
+        {
+          "@language": "be-tarask",
+          "@value": "Заапарк"
+        },
+        {
+          "@language": "ps",
+          "@value": "ژوبڼ"
+        },
+        {
+          "@language": "ia",
+          "@value": "Jardin zoologic"
+        },
+        {
+          "@language": "nl",
+          "@value": "Dierentuin"
+        },
+        {
+          "@language": "vi",
+          "@value": "Vườn thú"
+        },
+        {
+          "@language": "gl",
+          "@value": "Zoolóxico"
+        },
+        {
+          "@language": "da",
+          "@value": "Zoologisk have"
+        },
+        {
+          "@language": "tl",
+          "@value": "Hayupan"
+        },
+        {
+          "@language": "eu",
+          "@value": "Zoologiko"
+        },
+        {
+          "@language": "arz",
+          "@value": "حديقه حيوانات"
+        },
+        {
+          "@language": "te",
+          "@value": "జంతుప్రదర్శనశాల"
+        },
+        {
+          "@language": "ku-latn",
+          "@value": "Baxçeyê heywanan"
+        },
+        {
+          "@language": "fi",
+          "@value": "Eläintarha"
+        },
+        {
+          "@language": "fa",
+          "@value": "باغ وحش"
+        },
+        {
+          "@language": "ja",
+          "@value": "動物園"
+        },
+        {
+          "@language": "zh-hant",
+          "@value": "動物園"
+        },
+        {
+          "@language": "dsb",
+          "@value": "Coo"
+        },
+        {
+          "@language": "hsb",
+          "@value": "Coo"
+        },
+        {
+          "@language": "myv",
+          "@value": "Зоопарк"
+        },
+        {
+          "@language": "ru",
+          "@value": "Зоопарк"
+        },
+        {
+          "@language": "rue",
+          "@value": "Зоопарк"
+        },
+        {
+          "@language": "uk",
+          "@value": "Зоопарк"
+        },
+        {
+          "@language": "sq",
+          "@value": "Kopsht zoologjik"
+        },
+        {
+          "@language": "no",
+          "@value": "Dyrepark"
+        },
+        {
+          "@language": "hu",
+          "@value": "Állatkert"
+        },
+        {
+          "@language": "aln",
+          "@value": "Kopsht Zoologjik"
+        },
+        {
+          "@language": "mk",
+          "@value": "Зоолошка"
+        },
+        {
+          "@language": "af",
+          "@value": "Dieretuin"
+        },
+        {
+          "@language": "sv",
+          "@value": "Djurpark"
+        },
+        {
+          "@language": "pt",
+          "@value": "Jardim zoológico"
+        }
+      ],
+      "subClassOf": "http://openthings.cc/ontology/TourismThing",
+      "equivalentClass": ["http://linkedgeodata.org/ontology/Zoo"]
+    },
+    
+  ],
+  "@context": {
+    "label": "http://www.w3.org/2000/01/rdf-schema#label",
+    "subClassOf": {
+      "@id": "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+      "@type": "@id"
+    },
+    "meta": {
+      "@id": "http://openthings.cc/onotology/meta",
+      "@type": "@id"
+    },
+    "range": {
+      "@id": "http://www.w3.org/2000/01/rdf-schema#range",
+      "@type": "@id"
+    },
+    "domain": {
+      "@id": "http://www.w3.org/2000/01/rdf-schema#domain",
+      "@type": "@id"
+    },
+    "subPropertyOf": {
+      "@id": "http://www.w3.org/2000/01/rdf-schema#subPropertyOf",
+      "@type": "@id"
+    },
+    "inScheme": {
+      "@id": "http://www.w3.org/2004/02/skos/core#inScheme",
+      "@type": "@id"
+    },
+    "name": "http://xmlns.com/foaf/0.1/name",
+    "title": "http://purl.org/dc/terms/title",
+    "prefLabel": "http://www.w3.org/2004/02/skos/core#prefLabel",
+    "notation": "http://www.w3.org/2004/02/skos/core#notation",
+    "comment": "http://www.w3.org/2000/01/rdf-schema#comment",
+    "definition": "http://www.w3.org/2004/02/skos/core#definition",
+    "historyNote": "http://www.w3.org/2004/02/skos/core#historyNote",
+    "deprecated": {
+      "@id": "http://www.w3.org/2002/07/owl#deprecated",
+      "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+    },
+    "onProperty": {
+      "@id": "http://www.w3.org/2002/07/owl#onProperty",
+      "@type": "@id"
+    },
+    "cardinality": {
+      "@id": "http://www.w3.org/2002/07/owl#cardinality",
+      "@type": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger"
+    },
+    "maxCardinality": {
+      "@id": "http://www.w3.org/2002/07/owl#maxCardinality",
+      "@type": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger"
+    },
+    "hasValue": {
+      "@id": "http://www.w3.org/2002/07/owl#hasValue",
+      "@type": "@id"
+    },
+    "propertyChainAxiom": {
+      "@id": "http://www.w3.org/2002/07/owl#propertyChainAxiom",
+      "@type": "@id"
+    },
+    "rest": {
+      "@id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest",
+      "@type": "@id"
+    },
+    "first": {
+      "@id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#first",
+      "@type": "@id"
+    },
+    "equivalentClass": {
+      "@id": "http://www.w3.org/2002/07/owl#equivalentClass",
+      "@type": "@id"
+    },
+    "publisher": {
+      "@id": "http://purl.org/dc/terms/publisher",
+      "@type": "@id"
+    },
+    "isDefinedBy": {
+      "@id": "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
+      "@type": "@id"
+    },
+    "creator": {
+      "@id": "http://purl.org/dc/terms/creator",
+      "@type": "@id"
+    },
+    "license": {
+      "@id": "http://creativecommons.org/ns#license",
+      "@type": "@id"
+    },
+    "versionInfo": "http://www.w3.org/2002/07/owl#versionInfo",
+    "priorVersion": {
+      "@id": "http://www.w3.org/2002/07/owl#priorVersion",
+      "@type": "@id"
+    },
+    "modified": "http://purl.org/dc/terms/modified",
+    "homepage": {
+      "@id": "http://xmlns.com/foaf/0.1/homepage",
+      "@type": "@id"
+    },
+    "relatedDocumentation": {
+      "@id": "http://www.w3.org/ns/adms#relatedDocumentation",
+      "@type": "@id"
+    },
+    "workplaceHomepage": {
+      "@id": "http://xmlns.com/foaf/0.1/workplaceHomepage",
+      "@type": "@id"
+    },
+    "page": {
+      "@id": "http://xmlns.com/foaf/0.1/page",
+      "@type": "@id"
+    },
+    "dtm": {
+      "@id": "http://id.loc.gov/vocabulary/relators/dtm",
+      "@type": "@id"
+    },
+    "seeAlso": {
+      "@id": "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+      "@type": "@id"
+    },
+    "adms": "http://www.w3.org/ns/adms#",
+    "gn": "http://www.geonames.org/ontology#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "mrel": "http://id.loc.gov/vocabulary/relators/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "vann": "http://purl.org/vocab/vann/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "cc": "http://creativecommons.org/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "issued": "http://purl.org/dc/terms/issued",
+    "contributor": "http://purl.org/dc/terms/contributor",
+    "preferredNamespaceUri": "http://purl.org/vocab/vann/preferredNamespaceUri",
+    "preferredNamespacePrefix": "http://purl.org/vocab/vann/preferredNamespacePrefix",
+    "description": "http://purl.org/dc/terms/description"
+  }
+}
