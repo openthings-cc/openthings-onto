@@ -1,12 +1,6 @@
 {
   "@graph": [
     {
-      "@id": "http://openthings.cc/ontology/ATM",
-      "@type": "owl:Class",
-      "subClassOf": "http://openthings.cc/ontology/Amenity",
-      "equivalentClass": ["http://linkedgeodata.org/ontology/ATM"]
-    },
-    {
       "@id": "http://openthings.cc/ontology/AbandonedRailway",
       "@type": "owl:Class",
       "label": [
@@ -3636,18 +3630,6 @@
           "@value": "нанос"
         }
       ]
-    },
-    {
-      "@id": "http://openthings.cc/ontology/Bank%2Catm",
-      "@type": "owl:Class",
-      "subClassOf": "http://openthings.cc/ontology/Amenity",
-      "equivalentClass": ["http://linkedgeodata.org/ontology/Bank%2Catm"]
-    },
-    {
-      "@id": "http://openthings.cc/ontology/Bank%3Batm",
-      "@type": "owl:Class",
-      "subClassOf": "http://openthings.cc/ontology/Amenity",
-      "equivalentClass": ["http://linkedgeodata.org/ontology/Bank%3Batm"]
     },
     {
       "@id": "http://openthings.cc/ontology/Bar",
