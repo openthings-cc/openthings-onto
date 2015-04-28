@@ -1399,7 +1399,7 @@
       "equivalentClass": ["http://linkedgeodata.org/ontology/AntiquitiesShop"]
     },
     {
-      "@id": "http://openthings.cc/ontology/ApartmentBuilding",
+      "@id": "http://openthings.cc/ontology/Apartment",
       "@type": "owl:Class",
       "label": [
         {
@@ -7806,19 +7806,13 @@
       "equivalentClass": ["http://linkedgeodata.org/ontology/Building"]
     },
     {
-      "@id": "http://openthings.cc/ontology/BuildingBarn",
+      "@id": "http://openthings.cc/ontology/Barn",
       "@type": "owl:Class",
       "subClassOf": "http://openthings.cc/ontology/Building",
       "equivalentClass": ["http://linkedgeodata.org/ontology/BuildingBarn"]
     },
     {
-      "@id": "http://openthings.cc/ontology/BuildingBuilding",
-      "@type": "owl:Class",
-      "subClassOf": "http://openthings.cc/ontology/Building",
-      "equivalentClass": ["http://linkedgeodata.org/ontology/BuildingBuilding"]
-    },
-    {
-      "@id": "http://openthings.cc/ontology/BuildingBunker",
+      "@id": "http://openthings.cc/ontology/Bunker",
       "@type": "owl:Class",
       "label": [
         {
@@ -8021,13 +8015,13 @@
       ]
     },
     {
-      "@id": "http://openthings.cc/ontology/BuildingCabin",
+      "@id": "http://openthings.cc/ontology/Cabin",
       "@type": "owl:Class",
       "subClassOf": "http://openthings.cc/ontology/Building",
       "equivalentClass": ["http://linkedgeodata.org/ontology/BuildingCabin"]
     },
     {
-      "@id": "http://openthings.cc/ontology/BuildingChapel",
+      "@id": "http://openthings.cc/ontology/Chapel",
       "@type": "owl:Class",
       "label": [
         {
@@ -8246,7 +8240,7 @@
       ]
     },
     {
-      "@id": "http://openthings.cc/ontology/BuildingChurch",
+      "@id": "http://openthings.cc/ontology/Church",
       "@type": "owl:Class",
       "label": [
         {
@@ -8522,7 +8516,7 @@
       ]
     },
     {
-      "@id": "http://openthings.cc/ontology/BuildingCommercial",
+      "@id": "http://openthings.cc/ontology/CommercialBuilding",
       "@type": "owl:Class",
       "label": [
         {
@@ -8706,7 +8700,7 @@
       "equivalentClass": ["http://linkedgeodata.org/ontology/BuildingCommercial"]
     },
     {
-      "@id": "http://openthings.cc/ontology/BuildingDormitory",
+      "@id": "http://openthings.cc/ontology/Dormitory",
       "@type": "owl:Class",
       "label": [
         {
@@ -8906,7 +8900,7 @@
       "equivalentClass": ["http://linkedgeodata.org/ontology/BuildingDormitory"]
     },
     {
-      "@id": "http://openthings.cc/ontology/BuildingEntrance",
+      "@id": "http://openthings.cc/ontology/Entrance",
       "@type": "owl:Class",
       "label": [
         {
@@ -9089,7 +9083,7 @@
       "equivalentClass": ["http://linkedgeodata.org/ontology/BuildingEntrance"]
     },
     {
-      "@id": "http://openthings.cc/ontology/BuildingFarm",
+      "@id": "http://openthings.cc/ontology/Farm",
       "@type": "owl:Class",
       "label": [
         {
@@ -9284,7 +9278,7 @@
       ]
     },
     {
-      "@id": "http://openthings.cc/ontology/BuildingGarage",
+      "@id": "http://openthings.cc/ontology/Garage",
       "@type": "owl:Class",
       "label": [
         {
@@ -9538,7 +9532,7 @@
       ]
     },
     {
-      "@id": "http://openthings.cc/ontology/BuildingHall",
+      "@id": "http://openthings.cc/ontology/Hall",
       "@type": "owl:Class",
       "label": [
         {
@@ -9784,7 +9778,7 @@
       ]
     },
     {
-      "@id": "http://openthings.cc/ontology/BuildingHospital",
+      "@id": "http://openthings.cc/ontology/Hospital",
       "@type": "owl:Class",
       "label": [
         {
@@ -9992,7 +9986,7 @@
       "equivalentClass": ["http://linkedgeodata.org/ontology/BuildingHospital"]
     },
     {
-      "@id": "http://openthings.cc/ontology/BuildingHouse",
+      "@id": "http://openthings.cc/ontology/House",
       "@type": "owl:Class",
       "label": [
         {
@@ -10221,19 +10215,37 @@
       ]
     },
     {
-      "@id": "http://openthings.cc/ontology/BuildingHut",
+      "@id": "http://openthings.cc/ontology/Temple",
+      "@type": "owl:Class",
+      "subClassOf": "http://openthings.cc/ontology/Building",
+      "equivalentClass": ["http://linkedgeodata.org/ontology/Temple"]
+    },
+    {
+      "@id": "http://openthings.cc/ontology/Cathedral",
+      "@type": "owl:Class",
+      "subClassOf": "http://openthings.cc/ontology/Building",
+      "equivalentClass": ["http://linkedgeodata.org/ontology/Cathedral"]
+    },
+    {
+      "@id": "http://openthings.cc/ontology/Synagogue",
+      "@type": "owl:Class",
+      "subClassOf": "http://openthings.cc/ontology/Building",
+      "equivalentClass": ["http://linkedgeodata.org/ontology/Synagogue"]
+    },
+    {
+      "@id": "http://openthings.cc/ontology/Hut",
       "@type": "owl:Class",
       "subClassOf": "http://openthings.cc/ontology/Building",
       "equivalentClass": ["http://linkedgeodata.org/ontology/BuildingHut"]
     },
     {
-      "@id": "http://openthings.cc/ontology/BuildingKiosk",
+      "@id": "http://openthings.cc/ontology/Kiosk",
       "@type": "owl:Class",
       "subClassOf": "http://openthings.cc/ontology/Building",
       "equivalentClass": ["http://linkedgeodata.org/ontology/BuildingKiosk"]
     },
     {
-      "@id": "http://openthings.cc/ontology/BuildingMonastery",
+      "@id": "http://openthings.cc/ontology/Monastery",
       "@type": "owl:Class",
       "subClassOf": "http://openthings.cc/ontology/Building",
       "equivalentClass": ["http://linkedgeodata.org/ontology/BuildingMonastery"]
@@ -10245,7 +10257,7 @@
       "equivalentClass": ["http://linkedgeodata.org/ontology/BuildingNo"]
     },
     {
-      "@id": "http://openthings.cc/ontology/BuildingOffice",
+      "@id": "http://openthings.cc/ontology/Office",
       "@type": "owl:Class",
       "label": [
         {
@@ -10449,7 +10461,7 @@
       }
     },
     {
-      "@id": "http://openthings.cc/ontology/BuildingResidential",
+      "@id": "http://openthings.cc/ontology/ResidentialBuilding",
       "@type": "owl:Class",
       "label": [
         {
@@ -10637,7 +10649,7 @@
       "equivalentClass": ["http://linkedgeodata.org/ontology/BuildingResidential"]
     },
     {
-      "@id": "http://openthings.cc/ontology/BuildingRetail",
+      "@id": "http://openthings.cc/ontology/RetailBuilding",
       "@type": "owl:Class",
       "label": [
         {
@@ -10809,7 +10821,7 @@
       "equivalentClass": ["http://linkedgeodata.org/ontology/BuildingRetail"]
     },
     {
-      "@id": "http://openthings.cc/ontology/BuildingSchool",
+      "@id": "http://openthings.cc/ontology/School",
       "@type": "owl:Class",
       "label": [
         {
@@ -11017,7 +11029,7 @@
       "equivalentClass": ["http://linkedgeodata.org/ontology/BuildingSchool"]
     },
     {
-      "@id": "http://openthings.cc/ontology/BuildingTower",
+      "@id": "http://openthings.cc/ontology/Tower",
       "@type": "owl:Class",
       "label": [
         {
@@ -11278,7 +11290,7 @@
       ]
     },
     {
-      "@id": "http://openthings.cc/ontology/BuildingUniversity",
+      "@id": "http://openthings.cc/ontology/University",
       "@type": "owl:Class",
       "label": [
         {
@@ -11470,7 +11482,7 @@
       "equivalentClass": ["http://linkedgeodata.org/ontology/BuildingUniversity"]
     },
     {
-      "@id": "http://openthings.cc/ontology/BuildingUnknown",
+      "@id": "http://openthings.cc/ontology/UnknownBuilding",
       "@type": "owl:Class",
       "subClassOf": "http://openthings.cc/ontology/Building",
       "equivalentClass": ["http://linkedgeodata.org/ontology/BuildingUnknown"]
@@ -58115,6 +58127,12 @@
       ],
       "subClassOf": "http://openthings.cc/ontology/Leisure",
       "equivalentClass": ["http://linkedgeodata.org/ontology/Pitch"]
+    },
+    {
+      "@id": "http://openthings.cc/ontology/Planetarium",
+      "@type": "owl:Class",
+      "equivalentClass": ["http://linkedgeodata.org/ontology/Planetarium"],
+      "subClassOf": "http://openthings.cc/ontology/Amenity"
     },
     {
       "@id": "http://openthings.cc/ontology/Place",
