@@ -1,5 +1,11 @@
 {
   "@graph": [
+   {
+        "@id": "http://openthings.cc/ontology/GeoThing",
+        "@type": "owl:Class",
+        "equivalentClass": ["http://www.ontologydesignpatterns.org/ont/d0.owl#Location"],
+        "subClassOf": "http://www.w3.org/2002/07/owl#Thing"
+      },
     {
       "@id": "http://openthings.cc/ontology/AbandonedRailway",
       "@type": "owl:Class",
