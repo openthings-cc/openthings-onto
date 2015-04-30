@@ -13768,10 +13768,10 @@
       ]
     },
     {
-      "@id": "http://openthings.cc/ontology/Car%3BcarRepair",
+      "@id": "http://openthings.cc/ontology/Car;carRepair",
       "@type": "owl:Class",
       "subClassOf": "http://openthings.cc/ontology/Shop",
-      "equivalentClass": ["http://linkedgeodata.org/ontology/Car%3BcarRepair"]
+      "equivalentClass": ["http://linkedgeodata.org/ontology/Car;carRepair"]
     },
     {
       "@id": "http://openthings.cc/ontology/CarDealer",
@@ -31640,13 +31640,7 @@
       "equivalentClass": ["http://linkedgeodata.org/ontology/Fruit"]
     },
     {
-      "@id": "http://openthings.cc/ontology/Fuel%3BcarWash",
-      "@type": "owl:Class",
-      "subClassOf": "http://openthings.cc/ontology/Amenity",
-      "equivalentClass": ["http://linkedgeodata.org/ontology/Fuel%3BcarWash"]
-    },
-    {
-      "@id": "http://openthings.cc/ontology/FuelStation",
+      "@id": "http://openthings.cc/ontology/Fuel",
       "@type": "owl:Class",
       "label": [
         {
@@ -56062,18 +56056,6 @@
       "equivalentClass": ["http://linkedgeodata.org/ontology/Parking"]
     },
     {
-      "@id": "http://openthings.cc/ontology/Parking%3Bfuel",
-      "@type": "owl:Class",
-      "subClassOf": "http://openthings.cc/ontology/Amenity",
-      "equivalentClass": ["http://linkedgeodata.org/ontology/Parking%3Bfuel"]
-    },
-    {
-      "@id": "http://openthings.cc/ontology/Parking%3Brestaurant%3Bfuel",
-      "@type": "owl:Class",
-      "subClassOf": "http://openthings.cc/ontology/Amenity",
-      "equivalentClass": ["http://linkedgeodata.org/ontology/Parking%3Brestaurant%3Bfuel"]
-    },
-    {
       "@id": "http://openthings.cc/ontology/ParkingAisle",
       "@type": "owl:Class",
       "equivalentClass": ["http://linkedgeodata.org/ontology/ParkingAisle"],
@@ -63746,7 +63728,7 @@
       "equivalentClass": ["http://linkedgeodata.org/ontology/RecreationGround"]
     },
     {
-      "@id": "http://openthings.cc/ontology/RecyclingFacility",
+      "@id": "http://openthings.cc/ontology/Recycling",
       "@type": "owl:Class",
       "label": [
         {
@@ -65320,10 +65302,10 @@
       ]
     },
     {
-      "@id": "http://openthings.cc/ontology/Restaurant%3Bpub",
+      "@id": "http://openthings.cc/ontology/Restaurant;pub",
       "@type": "owl:Class",
       "subClassOf": "http://openthings.cc/ontology/Amenity",
-      "equivalentClass": ["http://linkedgeodata.org/ontology/Restaurant%3Bpub"]
+      "equivalentClass": ["http://linkedgeodata.org/ontology/Restaurant;pub"]
     },
     {
       "@id": "http://openthings.cc/ontology/Retail",
@@ -80964,10 +80946,10 @@
       "equivalentClass": ["http://linkedgeodata.org/ontology/WasteBasket"]
     },
     {
-      "@id": "http://openthings.cc/ontology/WasteBasket%3Brecycling",
+      "@id": "http://openthings.cc/ontology/WasteBasket;recycling",
       "@type": "owl:Class",
       "subClassOf": "http://openthings.cc/ontology/Amenity",
-      "equivalentClass": ["http://linkedgeodata.org/ontology/WasteBasket%3Brecycling"]
+      "equivalentClass": ["http://linkedgeodata.org/ontology/WasteBasket;recycling"]
     },
     {
       "@id": "http://openthings.cc/ontology/WasteBin",
