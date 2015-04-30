@@ -18713,23 +18713,12 @@
       "equivalentClass": ["http://linkedgeodata.org/ontology/Clothes"]
     },
     {
-      "@id": "http://openthings.cc/ontology/Clothes%3A+women",
+      "@id": "http://openthings.cc/ontology/WomenClothes",
       "@type": "owl:Class",
       "subClassOf": "http://openthings.cc/ontology/Shop",
-      "equivalentClass": ["http://linkedgeodata.org/ontology/Clothes%3A+women"]
+      "equivalentClass": ["http://linkedgeodata.org/ontology/Clothes: women", "http://linkedgeodata.org/ontology/Clothes:women"]
     },
-    {
-      "@id": "http://openthings.cc/ontology/Clothes%3Awomen",
-      "@type": "owl:Class",
-      "subClassOf": "http://openthings.cc/ontology/Shop",
-      "equivalentClass": ["http://linkedgeodata.org/ontology/Clothes%3Awomen"]
-    },
-    {
-      "@id": "http://openthings.cc/ontology/Clothing",
-      "@type": "owl:Class",
-      "subClassOf": "http://openthings.cc/ontology/Shop",
-      "equivalentClass": ["http://linkedgeodata.org/ontology/Clothing"]
-    },
+
     {
       "@id": "http://openthings.cc/ontology/Club",
       "@type": "owl:Class",
