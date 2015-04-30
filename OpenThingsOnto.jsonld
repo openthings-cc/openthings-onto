@@ -7220,13 +7220,13 @@
       ]
     },
     {
-      "@id": "http://openthings.cc/ontology/Bridge+pier",
+      "@id": "http://openthings.cc/ontology/BridgePier",
       "@type": "owl:Class",
       "subClassOf": "http://openthings.cc/ontology/ManMadeThing",
       "equivalentClass": ["http://linkedgeodata.org/ontology/Bridge+pier"]
     },
     {
-      "@id": "http://openthings.cc/ontology/Bridge+site",
+      "@id": "http://openthings.cc/ontology/BridgeSite",
       "@type": "owl:Class",
       "subClassOf": "http://openthings.cc/ontology/HistoricThing",
       "equivalentClass": ["http://linkedgeodata.org/ontology/Bridge+site"]
@@ -23394,7 +23394,7 @@
       "equivalentClass": ["http://linkedgeodata.org/ontology/Depth"]
     },
     {
-      "@id": "http://openthings.cc/ontology/Derestricted+speed+limit",
+      "@id": "http://openthings.cc/ontology/DerestrictedSpeedLimit",
       "@type": "owl:Class",
       "subClassOf": "http://openthings.cc/ontology/Amenity",
       "equivalentClass": ["http://linkedgeodata.org/ontology/Derestricted+speed+limit"]
@@ -25039,10 +25039,10 @@
       "equivalentClass": ["http://linkedgeodata.org/ontology/Dormitory"]
     },
     {
-      "@id": "http://openthings.cc/ontology/Downhill+Terminal",
+      "@id": "http://openthings.cc/ontology/DownhillTerminal",
       "@type": "owl:Class",
       "subClassOf": "http://openthings.cc/ontology/ManMadeThing",
-      "equivalentClass": ["http://linkedgeodata.org/ontology/Downhill+Terminal"]
+      "equivalentClass": ["http://linkedgeodata.org/ontology/Downhill Terminal"]
     },
     {
       "@id": "http://openthings.cc/ontology/DragLift",
@@ -29951,7 +29951,7 @@
       "equivalentClass": ["http://linkedgeodata.org/ontology/Fitness"]
     },
     {
-      "@id": "http://openthings.cc/ontology/Fitness+trail",
+      "@id": "http://openthings.cc/ontology/FitnessTrail",
       "@type": "owl:Class",
       "subClassOf": "http://openthings.cc/ontology/Leisure",
       "equivalentClass": ["http://linkedgeodata.org/ontology/Fitness+trail"]
@@ -57639,7 +57639,7 @@
       "equivalentClass": ["http://linkedgeodata.org/ontology/Picknick"]
     },
     {
-      "@id": "http://openthings.cc/ontology/Picnic+table",
+      "@id": "http://openthings.cc/ontology/PicnicTable",
       "@type": "owl:Class",
       "subClassOf": "http://openthings.cc/ontology/Amenity",
       "equivalentClass": ["http://linkedgeodata.org/ontology/Picnic+table"]
@@ -57892,7 +57892,7 @@
       ]
     },
     {
-      "@id": "http://openthings.cc/ontology/Pietra+miliare+FD",
+      "@id": "http://openthings.cc/ontology/PietraMiliareFD",
       "@type": "owl:Class",
       "subClassOf": "http://openthings.cc/ontology/Amenity",
       "equivalentClass": ["http://linkedgeodata.org/ontology/Pietra+miliare+FD"]
@@ -78799,7 +78799,7 @@
       "equivalentClass": ["http://linkedgeodata.org/ontology/UnknownShop"]
     },
     {
-      "@id": "http://openthings.cc/ontology/Uphill+Terminal",
+      "@id": "http://openthings.cc/ontology/UphillTerminal",
       "@type": "owl:Class",
       "subClassOf": "http://openthings.cc/ontology/ManMadeThing",
       "equivalentClass": ["http://linkedgeodata.org/ontology/Uphill+Terminal"]
@@ -78840,12 +78840,7 @@
       "subClassOf": "http://openthings.cc/ontology/Amenity",
       "equivalentClass": ["http://linkedgeodata.org/ontology/Vending"]
     },
-    {
-      "@id": "http://openthings.cc/ontology/Vending+machine",
-      "@type": "owl:Class",
-      "subClassOf": "http://openthings.cc/ontology/Amenity",
-      "equivalentClass": ["http://linkedgeodata.org/ontology/Vending+machine"]
-    },
+
     {
       "@id": "http://openthings.cc/ontology/VendingMachine",
       "@type": "owl:Class",
@@ -80440,7 +80435,7 @@
       ]
     },
     {
-      "@id": "http://openthings.cc/ontology/Viva+Blue",
+      "@id": "http://openthings.cc/ontology/VivaBlue",
       "@type": "owl:Class",
       "subClassOf": "http://openthings.cc/ontology/RailwayThing",
       "equivalentClass": ["http://linkedgeodata.org/ontology/Viva+Blue"]
