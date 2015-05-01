@@ -68103,10 +68103,10 @@
       "equivalentClass": ["http://linkedgeodata.org/ontology/Seat"]
     },
     {
-      "@id": "http://openthings.cc/ontology/Seating%2Cornamental",
+      "@id": "http://openthings.cc/ontology/SeatingOrnamental",
       "@type": "owl:Class",
       "subClassOf": "http://openthings.cc/ontology/Amenity",
-      "equivalentClass": ["http://linkedgeodata.org/ontology/Seating%2Cornamental"]
+      "equivalentClass": ["http://linkedgeodata.org/ontology/Seating,ornamental"]
     },
     {
       "@id": "http://openthings.cc/ontology/SecondHand",
@@ -80928,12 +80928,6 @@
       ],
       "subClassOf": "http://openthings.cc/ontology/Amenity",
       "equivalentClass": ["http://linkedgeodata.org/ontology/WasteBasket"]
-    },
-    {
-      "@id": "http://openthings.cc/ontology/WasteBasket;recycling",
-      "@type": "owl:Class",
-      "subClassOf": "http://openthings.cc/ontology/Amenity",
-      "equivalentClass": ["http://linkedgeodata.org/ontology/WasteBasket;recycling"]
     },
     {
       "@id": "http://openthings.cc/ontology/WasteBin",
