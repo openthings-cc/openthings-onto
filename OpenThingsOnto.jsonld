@@ -42033,7 +42033,7 @@
       ],
       "subClassOf": [
         "http://openthings.cc/ontology/Amenity",
-        "http://openthings.cc/ontology/TourismThing"
+        "http://openthings.cc/ontology/Accomodation"
       ],
       "equivalentClass": [
         "http://www.data.ign.fr/rge/taxoign.owl#HÃ´tel",
@@ -77633,7 +77633,7 @@
       "equivalentClass": [
         "http://opengids.cc/ontology/ToSleep"
       ],
-      "subClassOf": "http://openthings.cc/ontology/GeoThing"
+      "subClassOf": "http://openthings.cc/ontology/TourismThing"
     },
     {
       "@id": "http://openthings.cc/ontology/Tourist",
