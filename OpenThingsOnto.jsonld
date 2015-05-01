@@ -13768,12 +13768,6 @@
       ]
     },
     {
-      "@id": "http://openthings.cc/ontology/Car;carRepair",
-      "@type": "owl:Class",
-      "subClassOf": "http://openthings.cc/ontology/Shop",
-      "equivalentClass": ["http://linkedgeodata.org/ontology/Car;carRepair"]
-    },
-    {
       "@id": "http://openthings.cc/ontology/CarDealer",
       "@type": "owl:Class",
       "label": [
@@ -65289,12 +65283,6 @@
           "@value": "restaurant"
         }
       ]
-    },
-    {
-      "@id": "http://openthings.cc/ontology/Restaurant;pub",
-      "@type": "owl:Class",
-      "subClassOf": "http://openthings.cc/ontology/Amenity",
-      "equivalentClass": ["http://linkedgeodata.org/ontology/Restaurant;pub"]
     },
     {
       "@id": "http://openthings.cc/ontology/Retail",
